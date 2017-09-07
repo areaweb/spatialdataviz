@@ -1,0 +1,4 @@
+pip install -r requirements.txt
+jupyter notebook
+
+anda en tu browser a localhost:888

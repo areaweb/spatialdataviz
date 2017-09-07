@@ -1,0 +1,277 @@
+{
+    "directed": false,
+    "graph": {},
+    "links": [
+        {
+            "source": 0,
+            "target": 3
+        },
+        {
+            "source": 0,
+            "target": 5
+        },
+        {
+            "source": 0,
+            "target": 8
+        },
+        {
+            "source": 0,
+            "target": 6
+        },
+        {
+            "source": 0,
+            "target": 4
+        },
+        {
+            "source": 1,
+            "target": 10
+        },
+        {
+            "source": 1,
+            "target": 14
+        },
+        {
+            "source": 1,
+            "target": 11
+        },
+        {
+            "source": 1,
+            "target": 6
+        },
+        {
+            "source": 1,
+            "target": 7
+        },
+        {
+            "source": 1,
+            "target": 16
+        },
+        {
+            "source": 1,
+            "target": 17
+        },
+        {
+            "source": 2,
+            "target": 9
+        },
+        {
+            "source": 2,
+            "target": 12
+        },
+        {
+            "source": 3,
+            "target": 5
+        },
+        {
+            "source": 3,
+            "target": 8
+        },
+        {
+            "source": 3,
+            "target": 6
+        },
+        {
+            "source": 3,
+            "target": 4
+        },
+        {
+            "source": 4,
+            "target": 5
+        },
+        {
+            "source": 4,
+            "target": 8
+        },
+        {
+            "source": 4,
+            "target": 6
+        },
+        {
+            "source": 5,
+            "target": 8
+        },
+        {
+            "source": 5,
+            "target": 6
+        },
+        {
+            "source": 6,
+            "target": 8
+        },
+        {
+            "source": 6,
+            "target": 10
+        },
+        {
+            "source": 6,
+            "target": 14
+        },
+        {
+            "source": 6,
+            "target": 11
+        },
+        {
+            "source": 6,
+            "target": 7
+        },
+        {
+            "source": 6,
+            "target": 16
+        },
+        {
+            "source": 6,
+            "target": 17
+        },
+        {
+            "source": 7,
+            "target": 10
+        },
+        {
+            "source": 7,
+            "target": 14
+        },
+        {
+            "source": 7,
+            "target": 11
+        },
+        {
+            "source": 7,
+            "target": 16
+        },
+        {
+            "source": 7,
+            "target": 17
+        },
+        {
+            "source": 9,
+            "target": 12
+        },
+        {
+            "source": 9,
+            "target": 13
+        },
+        {
+            "source": 9,
+            "target": 15
+        },
+        {
+            "source": 10,
+            "target": 14
+        },
+        {
+            "source": 10,
+            "target": 11
+        },
+        {
+            "source": 10,
+            "target": 16
+        },
+        {
+            "source": 10,
+            "target": 17
+        },
+        {
+            "source": 11,
+            "target": 14
+        },
+        {
+            "source": 11,
+            "target": 16
+        },
+        {
+            "source": 11,
+            "target": 17
+        },
+        {
+            "source": 13,
+            "target": 15
+        },
+        {
+            "source": 14,
+            "target": 16
+        },
+        {
+            "source": 14,
+            "target": 17
+        },
+        {
+            "source": 16,
+            "target": 17
+        }
+    ],
+    "multigraph": false,
+    "nodes": [
+        {
+            "id": "Marta Lagos",
+            "name": "Marta Lagos"
+        },
+        {
+            "id": "Felipe Harboe",
+            "name": "Felipe Harboe"
+        },
+        {
+            "id": "Gabriel Boric",
+            "name": "Gabriel Boric"
+        },
+        {
+            "id": "Donald Trump",
+            "name": "Donald Trump"
+        },
+        {
+            "id": "Leonardo Farkas",
+            "name": "Leonardo Farkas"
+        },
+        {
+            "id": "Isabel Allende",
+            "name": "Isabel Allende"
+        },
+        {
+            "id": "Ricardo Lagos",
+            "name": "Ricardo Lagos"
+        },
+        {
+            "id": "Francisco D\u00edaz",
+            "name": "Francisco D\u00edaz"
+        },
+        {
+            "id": "Marco Enr\u00edquez-Ominami",
+            "name": "Marco Enr\u00edquez-Ominami"
+        },
+        {
+            "id": "Michelle Bachelet",
+            "name": "Michelle Bachelet"
+        },
+        {
+            "id": "Patricio Zapata",
+            "name": "Patricio Zapata"
+        },
+        {
+            "id": "Felipe Berr\u00edos",
+            "name": "Felipe Berr\u00edos"
+        },
+        {
+            "id": "Giorgio Jackson\u2013",
+            "name": "Giorgio Jackson\u2013"
+        },
+        {
+            "id": "Jorge Amaya",
+            "name": "Jorge Amaya"
+        },
+        {
+            "id": "Ignacio Walker",
+            "name": "Ignacio Walker"
+        },
+        {
+            "id": "Roberto Rom\u00e1n",
+            "name": "Roberto Rom\u00e1n"
+        },
+        {
+            "id": "Manuel Antonio Garret\u00f3n",
+            "name": "Manuel Antonio Garret\u00f3n"
+        },
+        {
+            "id": "Osvaldo Puccio",
+            "name": "Osvaldo Puccio"
+        }
+    ]
+}
