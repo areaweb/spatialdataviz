@@ -1,4 +1,6 @@
-def persist_to_file(file_name):
+import json
+
+def persist_to_file(file_name='cache.dat'):
     def decorator(original_func):
 
         try:

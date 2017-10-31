@@ -1,0 +1,3001 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_86120464a0164a5d8787b332c65e73ae {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_86120464a0164a5d8787b332c65e73ae" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_86120464a0164a5d8787b332c65e73ae = L.map(
+                                  'map_86120464a0164a5d8787b332c65e73ae',
+                                  {center: [-33.39,-70.57],
+                                  zoom: 8,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_a3e5f293036d459aa5fcd91443248240 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_86120464a0164a5d8787b332c65e73ae);
+        
+    
+
+            var marker_2e3a74f736754a749d17acb7f97f51a4 = L.marker(
+                [-33.4297301,-70.6171096621219],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_106aba1d1ad34a1a8fcdba973833a6c9 = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2e3a74f736754a749d17acb7f97f51a4.setIcon(icon_106aba1d1ad34a1a8fcdba973833a6c9);
+            
+    
+            var popup_471ad41092f54c86ac80e0e4105f7128 = L.popup({maxWidth: '300'});
+
+            
+                var html_651512fb5ca54c8b901ad37c84fc3124 = $('<div id="html_651512fb5ca54c8b901ad37c84fc3124" style="width: 100.0%; height: 100.0%;">Particular - Cambridge College - 704.4 - Providencia</div>')[0];
+                popup_471ad41092f54c86ac80e0e4105f7128.setContent(html_651512fb5ca54c8b901ad37c84fc3124);
+            
+
+            marker_2e3a74f736754a749d17acb7f97f51a4.bindPopup(popup_471ad41092f54c86ac80e0e4105f7128);
+
+            
+        
+    
+
+            var marker_76fc05d6304b44b58ced6d12df0965c8 = L.marker(
+                [-33.39712965,-70.5143209449632],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_9e17083a54ec417d90df71898c845168 = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_76fc05d6304b44b58ced6d12df0965c8.setIcon(icon_9e17083a54ec417d90df71898c845168);
+            
+    
+            var popup_17f10f1e2b714101830f139948d13e87 = L.popup({maxWidth: '300'});
+
+            
+                var html_40be2d42501740e5a191ab8e8638daa3 = $('<div id="html_40be2d42501740e5a191ab8e8638daa3" style="width: 100.0%; height: 100.0%;">Particular - Cordillera - 699.0 - Las Condes</div>')[0];
+                popup_17f10f1e2b714101830f139948d13e87.setContent(html_40be2d42501740e5a191ab8e8638daa3);
+            
+
+            marker_76fc05d6304b44b58ced6d12df0965c8.bindPopup(popup_17f10f1e2b714101830f139948d13e87);
+
+            
+        
+    
+
+            var marker_d5817e9c227841c1a10486b6f84cb7f3 = L.marker(
+                [-32.95104785,-71.5354626703725],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_f79035216b1d48e4a9ff03e9537a471f = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d5817e9c227841c1a10486b6f84cb7f3.setIcon(icon_f79035216b1d48e4a9ff03e9537a471f);
+            
+    
+            var popup_de1ba390b7dd406f83f93994e032a624 = L.popup({maxWidth: '300'});
+
+            
+                var html_c65292a3e04645dbb3711574d968c203 = $('<div id="html_c65292a3e04645dbb3711574d968c203" style="width: 100.0%; height: 100.0%;">Particular - Montemar - 694.0 - Concón</div>')[0];
+                popup_de1ba390b7dd406f83f93994e032a624.setContent(html_c65292a3e04645dbb3711574d968c203);
+            
+
+            marker_d5817e9c227841c1a10486b6f84cb7f3.bindPopup(popup_de1ba390b7dd406f83f93994e032a624);
+
+            
+        
+    
+
+            var marker_b9dca83e13bc4508834e25db44345d2c = L.marker(
+                [-33.4805743,-70.74499],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_39ef391a08824c73b17d667962931985 = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b9dca83e13bc4508834e25db44345d2c.setIcon(icon_39ef391a08824c73b17d667962931985);
+            
+    
+            var popup_c32ef06e2e1441eca31ebbdf929cd23a = L.popup({maxWidth: '300'});
+
+            
+                var html_8f1201d93a524fd8a12eb9a8956d58b6 = $('<div id="html_8f1201d93a524fd8a12eb9a8956d58b6" style="width: 100.0%; height: 100.0%;">Particular - Internacional Alba - 693.4 - Maipú</div>')[0];
+                popup_c32ef06e2e1441eca31ebbdf929cd23a.setContent(html_8f1201d93a524fd8a12eb9a8956d58b6);
+            
+
+            marker_b9dca83e13bc4508834e25db44345d2c.bindPopup(popup_c32ef06e2e1441eca31ebbdf929cd23a);
+
+            
+        
+    
+
+            var marker_9f6c6ee3b306415f83053535de0deac2 = L.marker(
+                [-33.37579495,-70.5270086976089],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_aed871a2e0794586a98c414d32de4501 = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9f6c6ee3b306415f83053535de0deac2.setIcon(icon_aed871a2e0794586a98c414d32de4501);
+            
+    
+            var popup_a2dd9e57f95049bf8583c8f60933f683 = L.popup({maxWidth: '300'});
+
+            
+                var html_6ed4add3f49a4cdbbd47dd0960cf362f = $('<div id="html_6ed4add3f49a4cdbbd47dd0960cf362f" style="width: 100.0%; height: 100.0%;">Particular - Los Andes - 692.9 - Vitacura</div>')[0];
+                popup_a2dd9e57f95049bf8583c8f60933f683.setContent(html_6ed4add3f49a4cdbbd47dd0960cf362f);
+            
+
+            marker_9f6c6ee3b306415f83053535de0deac2.bindPopup(popup_a2dd9e57f95049bf8583c8f60933f683);
+
+            
+        
+    
+
+            var marker_a03b70fdb3614f61ae258ca2f89c4cb3 = L.marker(
+                [-41.4703149,-72.9327801328877],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_30562b159f8a4e158833921f4cea5f9d = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a03b70fdb3614f61ae258ca2f89c4cb3.setIcon(icon_30562b159f8a4e158833921f4cea5f9d);
+            
+    
+            var popup_d0e49a90da7949ec811b7fa13dc0d61a = L.popup({maxWidth: '300'});
+
+            
+                var html_bf8ea6c178c14fca9d41345e019c1b1d = $('<div id="html_bf8ea6c178c14fca9d41345e019c1b1d" style="width: 100.0%; height: 100.0%;">Particular - Instituto Alemán - 690.9 - Puerto Montt</div>')[0];
+                popup_d0e49a90da7949ec811b7fa13dc0d61a.setContent(html_bf8ea6c178c14fca9d41345e019c1b1d);
+            
+
+            marker_a03b70fdb3614f61ae258ca2f89c4cb3.bindPopup(popup_d0e49a90da7949ec811b7fa13dc0d61a);
+
+            
+        
+    
+
+            var marker_d6d7543957ab4c95beb24349703a18de = L.marker(
+                [-33.362362,-70.485016],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_938578445106490cbcad8fde7044f79b = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d6d7543957ab4c95beb24349703a18de.setIcon(icon_938578445106490cbcad8fde7044f79b);
+            
+    
+            var popup_f01015d80fd1498c9a4e6a8320f13023 = L.popup({maxWidth: '300'});
+
+            
+                var html_a37ef9b02b9d444f823e3e539527fbc5 = $('<div id="html_a37ef9b02b9d444f823e3e539527fbc5" style="width: 100.0%; height: 100.0%;">Particular - Maimonides School - 689.7 - Lo Barnechea</div>')[0];
+                popup_f01015d80fd1498c9a4e6a8320f13023.setContent(html_a37ef9b02b9d444f823e3e539527fbc5);
+            
+
+            marker_d6d7543957ab4c95beb24349703a18de.bindPopup(popup_f01015d80fd1498c9a4e6a8320f13023);
+
+            
+        
+    
+
+            var marker_76519ba2aabd463f9e2882a0e14adaa9 = L.marker(
+                [-36.9329182,-73.0240795401104],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_bedb441dceea4b69b4f0210d0a2298ca = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_76519ba2aabd463f9e2882a0e14adaa9.setIcon(icon_bedb441dceea4b69b4f0210d0a2298ca);
+            
+    
+            var popup_39e7d38bd4b94ea8bbf998536bfdddba = L.popup({maxWidth: '300'});
+
+            
+                var html_5a0be47a85d147b283a737283365013b = $('<div id="html_5a0be47a85d147b283a737283365013b" style="width: 100.0%; height: 100.0%;">Particular - Pinares - 685.5 - Chiguayante</div>')[0];
+                popup_39e7d38bd4b94ea8bbf998536bfdddba.setContent(html_5a0be47a85d147b283a737283365013b);
+            
+
+            marker_76519ba2aabd463f9e2882a0e14adaa9.bindPopup(popup_39e7d38bd4b94ea8bbf998536bfdddba);
+
+            
+        
+    
+
+            var marker_7180d3ecb3664d1d8e1d2cba63d6ec9d = L.marker(
+                [-33.43693825,-70.5678364497786],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_c6b669da35994d999b148d3a3b352811 = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7180d3ecb3664d1d8e1d2cba63d6ec9d.setIcon(icon_c6b669da35994d999b148d3a3b352811);
+            
+    
+            var popup_b945dd8f47fc4a048d0f10604910d9b5 = L.popup({maxWidth: '300'});
+
+            
+                var html_fcdde1a89eca4a1baf6e22239469fe93 = $('<div id="html_fcdde1a89eca4a1baf6e22239469fe93" style="width: 100.0%; height: 100.0%;">Particular - The Grange School - 682.6 - La Reina</div>')[0];
+                popup_b945dd8f47fc4a048d0f10604910d9b5.setContent(html_fcdde1a89eca4a1baf6e22239469fe93);
+            
+
+            marker_7180d3ecb3664d1d8e1d2cba63d6ec9d.bindPopup(popup_b945dd8f47fc4a048d0f10604910d9b5);
+
+            
+        
+    
+
+            var marker_81d44495f8bb4acaaca7d9ed234d4c1f = L.marker(
+                [-33.36782585,-70.50897645],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_0fcda50312c1442c9e6a853e2cf6d881 = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_81d44495f8bb4acaaca7d9ed234d4c1f.setIcon(icon_0fcda50312c1442c9e6a853e2cf6d881);
+            
+    
+            var popup_b5414bad86ac4d9c89387f7cc61f34c4 = L.popup({maxWidth: '300'});
+
+            
+                var html_118b1634fead4cde9455fbe9fd4d1e28 = $('<div id="html_118b1634fead4cde9455fbe9fd4d1e28" style="width: 100.0%; height: 100.0%;">Particular - Instituto Hebreo - 681.0 - Lo Barnechea</div>')[0];
+                popup_b5414bad86ac4d9c89387f7cc61f34c4.setContent(html_118b1634fead4cde9455fbe9fd4d1e28);
+            
+
+            marker_81d44495f8bb4acaaca7d9ed234d4c1f.bindPopup(popup_b5414bad86ac4d9c89387f7cc61f34c4);
+
+            
+        
+    
+
+            var marker_d676a8061a824e09975be049541810c9 = L.marker(
+                [-33.68492175,-70.9181438684788],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_8d1f5dd584924f8bbd6e680d3227be6d = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d676a8061a824e09975be049541810c9.setIcon(icon_8d1f5dd584924f8bbd6e680d3227be6d);
+            
+    
+            var popup_8e7c2723c0224876949c4e832ed2e95a = L.popup({maxWidth: '300'});
+
+            
+                var html_28ff074841474441a6b875e31d817f58 = $('<div id="html_28ff074841474441a6b875e31d817f58" style="width: 100.0%; height: 100.0%;">Particular - Trebulco - 680.8 - Talagante</div>')[0];
+                popup_8e7c2723c0224876949c4e832ed2e95a.setContent(html_28ff074841474441a6b875e31d817f58);
+            
+
+            marker_d676a8061a824e09975be049541810c9.bindPopup(popup_8e7c2723c0224876949c4e832ed2e95a);
+
+            
+        
+    
+
+            var marker_2e7296f0f64741a58012fde7a3f9a52f = L.marker(
+                [-33.3803347,-70.5348377],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_d2b6992764984c6b9f3a096a4cea5103 = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2e7296f0f64741a58012fde7a3f9a52f.setIcon(icon_d2b6992764984c6b9f3a096a4cea5103);
+            
+    
+            var popup_60b1641c128d4db4b3299c476928d960 = L.popup({maxWidth: '300'});
+
+            
+                var html_cb4f05c8cd2c4497bc4f1624c6b44321 = $('<div id="html_cb4f05c8cd2c4497bc4f1624c6b44321" style="width: 100.0%; height: 100.0%;">Particular - Tabancura - 679.4 - Vitacura</div>')[0];
+                popup_60b1641c128d4db4b3299c476928d960.setContent(html_cb4f05c8cd2c4497bc4f1624c6b44321);
+            
+
+            marker_2e7296f0f64741a58012fde7a3f9a52f.bindPopup(popup_60b1641c128d4db4b3299c476928d960);
+
+            
+        
+    
+
+            var marker_78d9d4a8682c41e881b5cd850f87d9ab = L.marker(
+                [-33.442454,-70.606202],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_e886501393ff4569a7831002cf2bd0c7 = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_78d9d4a8682c41e881b5cd850f87d9ab.setIcon(icon_e886501393ff4569a7831002cf2bd0c7);
+            
+    
+            var popup_22783283f4604d238cd57354cf195a9e = L.popup({maxWidth: '300'});
+
+            
+                var html_7e851aa389a143d98277683c7907d4be = $('<div id="html_7e851aa389a143d98277683c7907d4be" style="width: 100.0%; height: 100.0%;">Particular - The Kent School - 678.5 - Providencia</div>')[0];
+                popup_22783283f4604d238cd57354cf195a9e.setContent(html_7e851aa389a143d98277683c7907d4be);
+            
+
+            marker_78d9d4a8682c41e881b5cd850f87d9ab.bindPopup(popup_22783283f4604d238cd57354cf195a9e);
+
+            
+        
+    
+
+            var marker_ea69577bbf274d19af7bcbdb66e1c975 = L.marker(
+                [-33.42014435,-70.5684437802117],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_6b3d2d5c38184443bf09dec9d6155857 = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ea69577bbf274d19af7bcbdb66e1c975.setIcon(icon_6b3d2d5c38184443bf09dec9d6155857);
+            
+    
+            var popup_e92da86d54a742099d4b13e3c0f831ba = L.popup({maxWidth: '300'});
+
+            
+                var html_5ca27d22e82048c6a216dcc3c651d852 = $('<div id="html_5ca27d22e82048c6a216dcc3c651d852" style="width: 100.0%; height: 100.0%;">Particular - La Girouette - 678.2 - Las Condes</div>')[0];
+                popup_e92da86d54a742099d4b13e3c0f831ba.setContent(html_5ca27d22e82048c6a216dcc3c651d852);
+            
+
+            marker_ea69577bbf274d19af7bcbdb66e1c975.bindPopup(popup_e92da86d54a742099d4b13e3c0f831ba);
+
+            
+        
+    
+
+            var marker_d5e29bf98b964365ad785e8f99ec3479 = L.marker(
+                [-37.24882155,-73.3061872870916],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_ad2b8d759c5742eca529bd2cda9feeac = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d5e29bf98b964365ad785e8f99ec3479.setIcon(icon_ad2b8d759c5742eca529bd2cda9feeac);
+            
+    
+            var popup_eee4dc5f8fd44e86849b05a6258b40b6 = L.popup({maxWidth: '300'});
+
+            
+                var html_8ae2b374b810455c93a8172f735d353a = $('<div id="html_8ae2b374b810455c93a8172f735d353a" style="width: 100.0%; height: 100.0%;">Particular - Arauco - 676.0 - Arauco</div>')[0];
+                popup_eee4dc5f8fd44e86849b05a6258b40b6.setContent(html_8ae2b374b810455c93a8172f735d353a);
+            
+
+            marker_d5e29bf98b964365ad785e8f99ec3479.bindPopup(popup_eee4dc5f8fd44e86849b05a6258b40b6);
+
+            
+        
+    
+
+            var marker_dd3435e4740744eea6196e0d84471c51 = L.marker(
+                [-33.36445855,-70.5183101905381],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_369750abbcd14f94b674da7d1f083658 = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_dd3435e4740744eea6196e0d84471c51.setIcon(icon_369750abbcd14f94b674da7d1f083658);
+            
+    
+            var popup_b517d0762de44c3285c75b1457cb562d = L.popup({maxWidth: '300'});
+
+            
+                var html_bef2eb7286d2472190f8bb65fddd6df3 = $('<div id="html_bef2eb7286d2472190f8bb65fddd6df3" style="width: 100.0%; height: 100.0%;">Particular - Los Alerces - 675.6 - Lo Barnechea</div>')[0];
+                popup_b517d0762de44c3285c75b1457cb562d.setContent(html_bef2eb7286d2472190f8bb65fddd6df3);
+            
+
+            marker_dd3435e4740744eea6196e0d84471c51.bindPopup(popup_b517d0762de44c3285c75b1457cb562d);
+
+            
+        
+    
+
+            var marker_3bdbb940246b487f9f1cf4d8859cde02 = L.marker(
+                [-33.3599392,-70.5327805],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_916d42fefea245d99504aa6f328be9d5 = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3bdbb940246b487f9f1cf4d8859cde02.setIcon(icon_916d42fefea245d99504aa6f328be9d5);
+            
+    
+            var popup_202f432248684587b7496eb51a6586b9 = L.popup({maxWidth: '300'});
+
+            
+                var html_6a7208ff319b4a8487e00caa5ff73fa1 = $('<div id="html_6a7208ff319b4a8487e00caa5ff73fa1" style="width: 100.0%; height: 100.0%;">Particular - The Newland School - 675.6 - Lo Barnechea</div>')[0];
+                popup_202f432248684587b7496eb51a6586b9.setContent(html_6a7208ff319b4a8487e00caa5ff73fa1);
+            
+
+            marker_3bdbb940246b487f9f1cf4d8859cde02.bindPopup(popup_202f432248684587b7496eb51a6586b9);
+
+            
+        
+    
+
+            var marker_4abab7382c8243039a8736024db519f2 = L.marker(
+                [-33.4637602,-70.60044585],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_b2ac3267d8104e8ea63df1c28d8d0684 = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4abab7382c8243039a8736024db519f2.setIcon(icon_b2ac3267d8104e8ea63df1c28d8d0684);
+            
+    
+            var popup_a7749a4a55a44b08886ba4a85b510c35 = L.popup({maxWidth: '300'});
+
+            
+                var html_b0d1738ef4014166be5cf3bbf39fff40 = $('<div id="html_b0d1738ef4014166be5cf3bbf39fff40" style="width: 100.0%; height: 100.0%;">Particular - Francisco Encina - 675.6 - Ñuñoa</div>')[0];
+                popup_a7749a4a55a44b08886ba4a85b510c35.setContent(html_b0d1738ef4014166be5cf3bbf39fff40);
+            
+
+            marker_4abab7382c8243039a8736024db519f2.bindPopup(popup_a7749a4a55a44b08886ba4a85b510c35);
+
+            
+        
+    
+
+            var marker_f7be1c8618624b74ac8be0eb382423f8 = L.marker(
+                [-33.43587615,-70.6188793531496],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_857aa8ec416a49c6a5bc8fb4e89d06cb = L.AwesomeMarkers.icon({
+                    icon: 'star',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f7be1c8618624b74ac8be0eb382423f8.setIcon(icon_857aa8ec416a49c6a5bc8fb4e89d06cb);
+            
+    
+            var popup_75d41d5e77244b79ae01256299355575 = L.popup({maxWidth: '300'});
+
+            
+                var html_534eddc7b32a4589a5b7e41707ed6a42 = $('<div id="html_534eddc7b32a4589a5b7e41707ed6a42" style="width: 100.0%; height: 100.0%;">Subvencionado - Josefino Santísima Trinidad - 673.5 - Providencia</div>')[0];
+                popup_75d41d5e77244b79ae01256299355575.setContent(html_534eddc7b32a4589a5b7e41707ed6a42);
+            
+
+            marker_f7be1c8618624b74ac8be0eb382423f8.bindPopup(popup_75d41d5e77244b79ae01256299355575);
+
+            
+        
+    
+
+            var marker_50fbd79c98184266b71881a48f043c3a = L.marker(
+                [-33.439611,-70.551921],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_6f5eb57e277c443681c44ac9ab2bbfd0 = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_50fbd79c98184266b71881a48f043c3a.setIcon(icon_6f5eb57e277c443681c44ac9ab2bbfd0);
+            
+    
+            var popup_365e306daec84e0fae08a2df457b93e0 = L.popup({maxWidth: '300'});
+
+            
+                var html_c58dab7e3bf74880aa50e18e4cc7eac5 = $('<div id="html_c58dab7e3bf74880aa50e18e4cc7eac5" style="width: 100.0%; height: 100.0%;">Particular - Andreé English School - 672.6 - La Reina</div>')[0];
+                popup_365e306daec84e0fae08a2df457b93e0.setContent(html_c58dab7e3bf74880aa50e18e4cc7eac5);
+            
+
+            marker_50fbd79c98184266b71881a48f043c3a.bindPopup(popup_365e306daec84e0fae08a2df457b93e0);
+
+            
+        
+    
+
+            var marker_9519348d991642e9b2363ce376a5b8c8 = L.marker(
+                [-41.3084803,-72.9931364],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_6bbaab71480442eea8d8e102586efeac = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9519348d991642e9b2363ce376a5b8c8.setIcon(icon_6bbaab71480442eea8d8e102586efeac);
+            
+    
+            var popup_9da7292e63324400ace8e7d340b5af44 = L.popup({maxWidth: '300'});
+
+            
+                var html_2f13b3fa7da44ce4b1d2d3c56c42fa06 = $('<div id="html_2f13b3fa7da44ce4b1d2d3c56c42fa06" style="width: 100.0%; height: 100.0%;">Particular - Puerto Varas - 671.8 - Puerto Varas</div>')[0];
+                popup_9da7292e63324400ace8e7d340b5af44.setContent(html_2f13b3fa7da44ce4b1d2d3c56c42fa06);
+            
+
+            marker_9519348d991642e9b2363ce376a5b8c8.bindPopup(popup_9da7292e63324400ace8e7d340b5af44);
+
+            
+        
+    
+
+            var marker_2d9ac8e7dfd041ffae9b5e2ae706a74b = L.marker(
+                [-32.96045675,-71.5406954610588],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_86eb7a44ce024d06bc57ad8e1336fee6 = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2d9ac8e7dfd041ffae9b5e2ae706a74b.setIcon(icon_86eb7a44ce024d06bc57ad8e1336fee6);
+            
+    
+            var popup_8f87e663ffbd48dca141d3081a321783 = L.popup({maxWidth: '300'});
+
+            
+                var html_7c5df095aeb74a559c6e89ce9fbdcc0d = $('<div id="html_7c5df095aeb74a559c6e89ce9fbdcc0d" style="width: 100.0%; height: 100.0%;">Particular - Albamar - 669.7 - Viña del Mar</div>')[0];
+                popup_8f87e663ffbd48dca141d3081a321783.setContent(html_7c5df095aeb74a559c6e89ce9fbdcc0d);
+            
+
+            marker_2d9ac8e7dfd041ffae9b5e2ae706a74b.bindPopup(popup_8f87e663ffbd48dca141d3081a321783);
+
+            
+        
+    
+
+            var marker_68e93453be204e7bae564d54c98d92b8 = L.marker(
+                [-33.3511194,-70.5031656],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_c62e9aeffc5f4a53b27e346a6ed86be3 = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_68e93453be204e7bae564d54c98d92b8.setIcon(icon_c62e9aeffc5f4a53b27e346a6ed86be3);
+            
+    
+            var popup_531b9067165545db851b7fcce325823f = L.popup({maxWidth: '300'});
+
+            
+                var html_9ec108df5b454689a73498b6e3a4b5a6 = $('<div id="html_9ec108df5b454689a73498b6e3a4b5a6" style="width: 100.0%; height: 100.0%;">Particular - Nido de Águilas - 669.7 - Lo Barnechea</div>')[0];
+                popup_531b9067165545db851b7fcce325823f.setContent(html_9ec108df5b454689a73498b6e3a4b5a6);
+            
+
+            marker_68e93453be204e7bae564d54c98d92b8.bindPopup(popup_531b9067165545db851b7fcce325823f);
+
+            
+        
+    
+
+            var marker_b7ae5a9d30284c7286fd762691a39cce = L.marker(
+                [-36.8883627,-73.0351594],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_2ccc7986903c49b5ab5fd84b343d99ca = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b7ae5a9d30284c7286fd762691a39cce.setIcon(icon_2ccc7986903c49b5ab5fd84b343d99ca);
+            
+    
+            var popup_57a926bd3cd1489ab193a77de7130526 = L.popup({maxWidth: '300'});
+
+            
+                var html_692ad8eefafa4f28ab1a3056b43c2535 = $('<div id="html_692ad8eefafa4f28ab1a3056b43c2535" style="width: 100.0%; height: 100.0%;">Particular - Itahue - 669.6 - Chiguayante</div>')[0];
+                popup_57a926bd3cd1489ab193a77de7130526.setContent(html_692ad8eefafa4f28ab1a3056b43c2535);
+            
+
+            marker_b7ae5a9d30284c7286fd762691a39cce.bindPopup(popup_57a926bd3cd1489ab193a77de7130526);
+
+            
+        
+    
+
+            var marker_e3e4f068f2b041149a39f035929e9298 = L.marker(
+                [-33.3933483,-70.5021064],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_37566fe29dd8457d8a96be715a6e7bea = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e3e4f068f2b041149a39f035929e9298.setIcon(icon_37566fe29dd8457d8a96be715a6e7bea);
+            
+    
+            var popup_715702ae17b840b2a0fb9e3f77c20132 = L.popup({maxWidth: '300'});
+
+            
+                var html_74ff483a735f4bed9d5f59538ffa4e9c = $('<div id="html_74ff483a735f4bed9d5f59538ffa4e9c" style="width: 100.0%; height: 100.0%;">Particular - Cumbres - 668.8 - Las Condes</div>')[0];
+                popup_715702ae17b840b2a0fb9e3f77c20132.setContent(html_74ff483a735f4bed9d5f59538ffa4e9c);
+            
+
+            marker_e3e4f068f2b041149a39f035929e9298.bindPopup(popup_715702ae17b840b2a0fb9e3f77c20132);
+
+            
+        
+    
+
+            var marker_61bc1124bd984af199c007d8e3e87d7e = L.marker(
+                [-33.4226143,-70.5973636],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_ff555ffac3624f9ca081651cd3c44617 = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_61bc1124bd984af199c007d8e3e87d7e.setIcon(icon_ff555ffac3624f9ca081651cd3c44617);
+            
+    
+            var popup_86774ace0f1c41e18e2a74b6bd7452f8 = L.popup({maxWidth: '300'});
+
+            
+                var html_1a86c290b6be4769a23b2948516bc7b7 = $('<div id="html_1a86c290b6be4769a23b2948516bc7b7" style="width: 100.0%; height: 100.0%;">Particular - Trewhela´s English School - 668.2 - Providencia</div>')[0];
+                popup_86774ace0f1c41e18e2a74b6bd7452f8.setContent(html_1a86c290b6be4769a23b2948516bc7b7);
+            
+
+            marker_61bc1124bd984af199c007d8e3e87d7e.bindPopup(popup_86774ace0f1c41e18e2a74b6bd7452f8);
+
+            
+        
+    
+
+            var marker_280a849cd2744adf9a1cc38c4c0f2195 = L.marker(
+                [-39.8121837,-73.2529625],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_16e780a2115b43869cb3eeb51a41bf85 = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_280a849cd2744adf9a1cc38c4c0f2195.setIcon(icon_16e780a2115b43869cb3eeb51a41bf85);
+            
+    
+            var popup_6e7c203a87f441619bf67d6f4035ce5f = L.popup({maxWidth: '300'});
+
+            
+                var html_e3ffa68292b14368a76106b24f347323 = $('<div id="html_e3ffa68292b14368a76106b24f347323" style="width: 100.0%; height: 100.0%;">Particular - Instituto Alemán C. Anwandter - 667.7 - Valdivia</div>')[0];
+                popup_6e7c203a87f441619bf67d6f4035ce5f.setContent(html_e3ffa68292b14368a76106b24f347323);
+            
+
+            marker_280a849cd2744adf9a1cc38c4c0f2195.bindPopup(popup_6e7c203a87f441619bf67d6f4035ce5f);
+
+            
+        
+    
+
+            var marker_66b96293fa0b46c781d2c0ee78b2e260 = L.marker(
+                [-33.38274525,-70.59655052429],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_ae6b4fc7b2784c258bc60ed4db396580 = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_66b96293fa0b46c781d2c0ee78b2e260.setIcon(icon_ae6b4fc7b2784c258bc60ed4db396580);
+            
+    
+            var popup_9effec67faab41bca1ac37332f387a79 = L.popup({maxWidth: '300'});
+
+            
+                var html_a68bc43724a04587b1ebaf7e85a2abc0 = $('<div id="html_a68bc43724a04587b1ebaf7e85a2abc0" style="width: 100.0%; height: 100.0%;">Particular - Saint George´s College - 667.1 - Vitacura</div>')[0];
+                popup_9effec67faab41bca1ac37332f387a79.setContent(html_a68bc43724a04587b1ebaf7e85a2abc0);
+            
+
+            marker_66b96293fa0b46c781d2c0ee78b2e260.bindPopup(popup_9effec67faab41bca1ac37332f387a79);
+
+            
+        
+    
+
+            var marker_bd3c3c7d42324669baae8281483acb9e = L.marker(
+                [-33.410922,-70.549691],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_a0ed6010980b4facafe26b9809abfd61 = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_bd3c3c7d42324669baae8281483acb9e.setIcon(icon_a0ed6010980b4facafe26b9809abfd61);
+            
+    
+            var popup_7f464eb489e741fea7138650356dc190 = L.popup({maxWidth: '300'});
+
+            
+                var html_cf14e1c18eb94a0883a80fd0344fe1f2 = $('<div id="html_cf14e1c18eb94a0883a80fd0344fe1f2" style="width: 100.0%; height: 100.0%;">Particular - SS.CC de Apoquindo - 667.0 - Las Condes</div>')[0];
+                popup_7f464eb489e741fea7138650356dc190.setContent(html_cf14e1c18eb94a0883a80fd0344fe1f2);
+            
+
+            marker_bd3c3c7d42324669baae8281483acb9e.bindPopup(popup_7f464eb489e741fea7138650356dc190);
+
+            
+        
+    
+
+            var marker_3b5a01183d344716ab01569098dc6acc = L.marker(
+                [-33.43709455,-70.6666589741227],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_9c32c808d39944db8f9893d62ca4c433 = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3b5a01183d344716ab01569098dc6acc.setIcon(icon_9c32c808d39944db8f9893d62ca4c433);
+            
+    
+            var popup_aa01304dcb5342d6b3f0639f305b15d1 = L.popup({maxWidth: '300'});
+
+            
+                var html_c72126cefb9541ec90db430973159f2b = $('<div id="html_c72126cefb9541ec90db430973159f2b" style="width: 100.0%; height: 100.0%;">Particular - Instituto Alonso de Ercilla - 666.7 - Santiago</div>')[0];
+                popup_aa01304dcb5342d6b3f0639f305b15d1.setContent(html_c72126cefb9541ec90db430973159f2b);
+            
+
+            marker_3b5a01183d344716ab01569098dc6acc.bindPopup(popup_aa01304dcb5342d6b3f0639f305b15d1);
+
+            
+        
+    
+
+            var marker_13ae1db6e297496583ce5d7c70bf7061 = L.marker(
+                [-33.46016265,-70.5812653049313],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_af73bd2651f14d639f08e7d655a361c9 = L.AwesomeMarkers.icon({
+                    icon: 'star-empty',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_13ae1db6e297496583ce5d7c70bf7061.setIcon(icon_af73bd2651f14d639f08e7d655a361c9);
+            
+    
+            var popup_364315b8eebb4cdd92848cdeb18bfa55 = L.popup({maxWidth: '300'});
+
+            
+                var html_7b569a18f0c04c4e81a734c45fc3a3bd = $('<div id="html_7b569a18f0c04c4e81a734c45fc3a3bd" style="width: 100.0%; height: 100.0%;">Municipal - Liceo Augusto D´Halmar - 665.0 - Ñuñoa</div>')[0];
+                popup_364315b8eebb4cdd92848cdeb18bfa55.setContent(html_7b569a18f0c04c4e81a734c45fc3a3bd);
+            
+
+            marker_13ae1db6e297496583ce5d7c70bf7061.bindPopup(popup_364315b8eebb4cdd92848cdeb18bfa55);
+
+            
+        
+    
+
+            var marker_30c91b1fa2d346a5bb443189c73cd4dc = L.marker(
+                [-33.37760185,-70.5751837243297],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_9f108784d403476e8b42acd73026cd54 = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_30c91b1fa2d346a5bb443189c73cd4dc.setIcon(icon_9f108784d403476e8b42acd73026cd54);
+            
+    
+            var popup_d9723bfae266429891422937e8e26df8 = L.popup({maxWidth: '300'});
+
+            
+                var html_3e6a06caf941474d8ffd17b14eb483b1 = $('<div id="html_3e6a06caf941474d8ffd17b14eb483b1" style="width: 100.0%; height: 100.0%;">Particular - Huelén - 664.8 - Vitacura</div>')[0];
+                popup_d9723bfae266429891422937e8e26df8.setContent(html_3e6a06caf941474d8ffd17b14eb483b1);
+            
+
+            marker_30c91b1fa2d346a5bb443189c73cd4dc.bindPopup(popup_d9723bfae266429891422937e8e26df8);
+
+            
+        
+    
+
+            var marker_c4193da4bee346eb8203e42d081ce137 = L.marker(
+                [-33.420037,-70.58666889999999],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_b2c19c5eb8054bcba4373272e4c940c7 = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c4193da4bee346eb8203e42d081ce137.setIcon(icon_b2c19c5eb8054bcba4373272e4c940c7);
+            
+    
+            var popup_3f139ffaf9c04242848c8ef3953e9299 = L.popup({maxWidth: '300'});
+
+            
+                var html_41234abc940442daa83ebe6d173b8627 = $('<div id="html_41234abc940442daa83ebe6d173b8627" style="width: 100.0%; height: 100.0%;">Particular - Del Verbo Divino - 664.3 - Las Condes</div>')[0];
+                popup_3f139ffaf9c04242848c8ef3953e9299.setContent(html_41234abc940442daa83ebe6d173b8627);
+            
+
+            marker_c4193da4bee346eb8203e42d081ce137.bindPopup(popup_3f139ffaf9c04242848c8ef3953e9299);
+
+            
+        
+    
+
+            var marker_11a91b3ff81f4f3893df7b8f55674388 = L.marker(
+                [-33.4271401,-70.59261055],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_092e0300b0794261a4e2bd17facee2b0 = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_11a91b3ff81f4f3893df7b8f55674388.setIcon(icon_092e0300b0794261a4e2bd17facee2b0);
+            
+    
+            var popup_b82507ac17cc4ddf868221a916a2a0a4 = L.popup({maxWidth: '300'});
+
+            
+                var html_94d5288aecdb4dadbe8fd727309ebc0c = $('<div id="html_94d5288aecdb4dadbe8fd727309ebc0c" style="width: 100.0%; height: 100.0%;">Particular - Saint Gabriel´s School - 664.2 - Providencia</div>')[0];
+                popup_b82507ac17cc4ddf868221a916a2a0a4.setContent(html_94d5288aecdb4dadbe8fd727309ebc0c);
+            
+
+            marker_11a91b3ff81f4f3893df7b8f55674388.bindPopup(popup_b82507ac17cc4ddf868221a916a2a0a4);
+
+            
+        
+    
+
+            var marker_41dd5a478fe34280a59bd5d10a5163d2 = L.marker(
+                [-37.2825293,-72.7091183],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_3479a22d7bb846699817c48114334ad7 = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_41dd5a478fe34280a59bd5d10a5163d2.setIcon(icon_3479a22d7bb846699817c48114334ad7);
+            
+    
+            var popup_15caa4272eb242658c7e387178fd7a93 = L.popup({maxWidth: '300'});
+
+            
+                var html_4868afca5c4e444ab60f9dcc3661133e = $('<div id="html_4868afca5c4e444ab60f9dcc3661133e" style="width: 100.0%; height: 100.0%;">Particular - San Jorge - 663.9 - Laja</div>')[0];
+                popup_15caa4272eb242658c7e387178fd7a93.setContent(html_4868afca5c4e444ab60f9dcc3661133e);
+            
+
+            marker_41dd5a478fe34280a59bd5d10a5163d2.bindPopup(popup_15caa4272eb242658c7e387178fd7a93);
+
+            
+        
+    
+
+            var marker_6331bce78bf041cd84d6c17dee55c363 = L.marker(
+                [-33.4210241,-70.5889657966817],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_2f3de9c1b99a4f60a30ee968d8557238 = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6331bce78bf041cd84d6c17dee55c363.setIcon(icon_2f3de9c1b99a4f60a30ee968d8557238);
+            
+    
+            var popup_70d54632e1924f6c9c721f9db984849f = L.popup({maxWidth: '300'});
+
+            
+                var html_e476ca315f964c4bbcb80a20991fa743 = $('<div id="html_e476ca315f964c4bbcb80a20991fa743" style="width: 100.0%; height: 100.0%;">Particular - Villa María Academy - 663.9 - Las Condes</div>')[0];
+                popup_70d54632e1924f6c9c721f9db984849f.setContent(html_e476ca315f964c4bbcb80a20991fa743);
+            
+
+            marker_6331bce78bf041cd84d6c17dee55c363.bindPopup(popup_70d54632e1924f6c9c721f9db984849f);
+
+            
+        
+    
+
+            var marker_045f95ccbe524bb2a1732fbd21653cb3 = L.marker(
+                [-33.37493645,-70.5206063232946],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_9b681897da0541d4bd81c40a7de20b97 = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_045f95ccbe524bb2a1732fbd21653cb3.setIcon(icon_9b681897da0541d4bd81c40a7de20b97);
+            
+    
+            var popup_d01702dfaba04af28842f99789974533 = L.popup({maxWidth: '300'});
+
+            
+                var html_7fbb9f982510401f908286331dc6f064 = $('<div id="html_7fbb9f982510401f908286331dc6f064" style="width: 100.0%; height: 100.0%;">Particular - Dunalastair - 663.3 - Las Condes</div>')[0];
+                popup_d01702dfaba04af28842f99789974533.setContent(html_7fbb9f982510401f908286331dc6f064);
+            
+
+            marker_045f95ccbe524bb2a1732fbd21653cb3.bindPopup(popup_d01702dfaba04af28842f99789974533);
+
+            
+        
+    
+
+            var marker_152f0c5be4c94c87a335a4a2ed5d031f = L.marker(
+                [-33.3395149,-70.5450678256533],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_03a556e444f1430c9e0b9e8355f7f901 = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_152f0c5be4c94c87a335a4a2ed5d031f.setIcon(icon_03a556e444f1430c9e0b9e8355f7f901);
+            
+    
+            var popup_bf9769b90d594219881d7fb63fce8231 = L.popup({maxWidth: '300'});
+
+            
+                var html_65ad7e19a5a44abeb659ea82eaa62040 = $('<div id="html_65ad7e19a5a44abeb659ea82eaa62040" style="width: 100.0%; height: 100.0%;">Particular - Santiago College - 662.6 - Lo Barnechea</div>')[0];
+                popup_bf9769b90d594219881d7fb63fce8231.setContent(html_65ad7e19a5a44abeb659ea82eaa62040);
+            
+
+            marker_152f0c5be4c94c87a335a4a2ed5d031f.bindPopup(popup_bf9769b90d594219881d7fb63fce8231);
+
+            
+        
+    
+
+            var marker_a1980b44273e41b6b050776a98967f7c = L.marker(
+                [-33.3713969,-70.5808853281962],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_7f4c97fa12d54a27a2dfc03e48b26e88 = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a1980b44273e41b6b050776a98967f7c.setIcon(icon_7f4c97fa12d54a27a2dfc03e48b26e88);
+            
+    
+            var popup_0ed46693d0e246a29a1b66c7e7545b31 = L.popup({maxWidth: '300'});
+
+            
+                var html_8f450c5fa0d845f3adb6027d926dec33 = $('<div id="html_8f450c5fa0d845f3adb6027d926dec33" style="width: 100.0%; height: 100.0%;">Particular - San Benito - 662.4 - Vitacura</div>')[0];
+                popup_0ed46693d0e246a29a1b66c7e7545b31.setContent(html_8f450c5fa0d845f3adb6027d926dec33);
+            
+
+            marker_a1980b44273e41b6b050776a98967f7c.bindPopup(popup_0ed46693d0e246a29a1b66c7e7545b31);
+
+            
+        
+    
+
+            var marker_36b106f732744bddb1b5c694eea68676 = L.marker(
+                [-33.40304,-70.564276],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_910967fc0c004d22986b785825def03f = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_36b106f732744bddb1b5c694eea68676.setIcon(icon_910967fc0c004d22986b785825def03f);
+            
+    
+            var popup_9e381ce4568d466bb79d6c5f5b041df7 = L.popup({maxWidth: '300'});
+
+            
+                var html_8e11b9fd1482482186798b94e19131e6 = $('<div id="html_8e11b9fd1482482186798b94e19131e6" style="width: 100.0%; height: 100.0%;">Particular - Internacional SEK Chile - 661.9 - Las Condes</div>')[0];
+                popup_9e381ce4568d466bb79d6c5f5b041df7.setContent(html_8e11b9fd1482482186798b94e19131e6);
+            
+
+            marker_36b106f732744bddb1b5c694eea68676.bindPopup(popup_9e381ce4568d466bb79d6c5f5b041df7);
+
+            
+        
+    
+
+            var marker_2b33f0a080ce459aa9d52e17d47b2728 = L.marker(
+                [-33.43500655,-70.5942887],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_3ddf2f23ad65477485469b7f1f55700c = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2b33f0a080ce459aa9d52e17d47b2728.setIcon(icon_3ddf2f23ad65477485469b7f1f55700c);
+            
+    
+            var popup_afe4b04c8e1f489fa03e0ed8cbbf10dd = L.popup({maxWidth: '300'});
+
+            
+                var html_46dc0359498c450a9bdb94fe0da29fa6 = $('<div id="html_46dc0359498c450a9bdb94fe0da29fa6" style="width: 100.0%; height: 100.0%;">Particular - San Ignacio El Bosque - 660.7 - Providencia</div>')[0];
+                popup_afe4b04c8e1f489fa03e0ed8cbbf10dd.setContent(html_46dc0359498c450a9bdb94fe0da29fa6);
+            
+
+            marker_2b33f0a080ce459aa9d52e17d47b2728.bindPopup(popup_afe4b04c8e1f489fa03e0ed8cbbf10dd);
+
+            
+        
+    
+
+            var marker_21ce7c254fac4d1a8960a66d21ee370b = L.marker(
+                [-30.61201255,-71.2171419776463],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_94106976538644ae80f006ce2c906f18 = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_21ce7c254fac4d1a8960a66d21ee370b.setIcon(icon_94106976538644ae80f006ce2c906f18);
+            
+    
+            var popup_875d00e863f14b5fa57719b54dde77fd = L.popup({maxWidth: '300'});
+
+            
+                var html_9a0b7b654fdc4835a5283f1699af0a13 = $('<div id="html_9a0b7b654fdc4835a5283f1699af0a13" style="width: 100.0%; height: 100.0%;">Particular - Amalia Errázuriz - 659.8 - Ovalle</div>')[0];
+                popup_875d00e863f14b5fa57719b54dde77fd.setContent(html_9a0b7b654fdc4835a5283f1699af0a13);
+            
+
+            marker_21ce7c254fac4d1a8960a66d21ee370b.bindPopup(popup_875d00e863f14b5fa57719b54dde77fd);
+
+            
+        
+    
+
+            var marker_760ce67951b74751b65ab623ad5a1f3d = L.marker(
+                [-36.829532,-73.0464155],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_c2074ef9342b4d8aa1162925c9b43b9a = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_760ce67951b74751b65ab623ad5a1f3d.setIcon(icon_c2074ef9342b4d8aa1162925c9b43b9a);
+            
+    
+            var popup_d9a95f0d70e04abd831a41d90f2e8dcb = L.popup({maxWidth: '300'});
+
+            
+                var html_f548830dac564f0194972465b85147ba = $('<div id="html_f548830dac564f0194972465b85147ba" style="width: 100.0%; height: 100.0%;">Particular - Charles de Gaulle - 659.3 - Concepción</div>')[0];
+                popup_d9a95f0d70e04abd831a41d90f2e8dcb.setContent(html_f548830dac564f0194972465b85147ba);
+            
+
+            marker_760ce67951b74751b65ab623ad5a1f3d.bindPopup(popup_d9a95f0d70e04abd831a41d90f2e8dcb);
+
+            
+        
+    
+
+            var marker_5af28696e33a418fa77e715dad1a61f1 = L.marker(
+                [-33.0466949,-71.3647156776244],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_bfe2921186624c08819461f3792e70bb = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5af28696e33a418fa77e715dad1a61f1.setIcon(icon_bfe2921186624c08819461f3792e70bb);
+            
+    
+            var popup_4083fbd5c9e149e9b31481403f08fea8 = L.popup({maxWidth: '300'});
+
+            
+                var html_44ec2c757c5d49a9972246ed4fb91111 = $('<div id="html_44ec2c757c5d49a9972246ed4fb91111" style="width: 100.0%; height: 100.0%;">Particular - Champagnat - 658.5 - Villa Alemana</div>')[0];
+                popup_4083fbd5c9e149e9b31481403f08fea8.setContent(html_44ec2c757c5d49a9972246ed4fb91111);
+            
+
+            marker_5af28696e33a418fa77e715dad1a61f1.bindPopup(popup_4083fbd5c9e149e9b31481403f08fea8);
+
+            
+        
+    
+
+            var marker_32f9c89d654349ac8f1e98a65d76cad0 = L.marker(
+                [-33.3695059,-70.5111826825731],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_7ab1985f814d487ea7abafbbe3e50344 = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_32f9c89d654349ac8f1e98a65d76cad0.setIcon(icon_7ab1985f814d487ea7abafbbe3e50344);
+            
+    
+            var popup_ba06e5a9f1ba461d85dd0ecf02710486 = L.popup({maxWidth: '300'});
+
+            
+                var html_876738c4166f49f5a663fbfd2a669ce1 = $('<div id="html_876738c4166f49f5a663fbfd2a669ce1" style="width: 100.0%; height: 100.0%;">Particular - Lincoln International Academy - 657.2 - Lo Barnechea</div>')[0];
+                popup_ba06e5a9f1ba461d85dd0ecf02710486.setContent(html_876738c4166f49f5a663fbfd2a669ce1);
+            
+
+            marker_32f9c89d654349ac8f1e98a65d76cad0.bindPopup(popup_ba06e5a9f1ba461d85dd0ecf02710486);
+
+            
+        
+    
+
+            var marker_06b7dfbd5538484c86f6e72721a4590c = L.marker(
+                [-33.32443,-70.5414538],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_e7cbe50de8fc464e825fd87b101a2a8c = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_06b7dfbd5538484c86f6e72721a4590c.setIcon(icon_e7cbe50de8fc464e825fd87b101a2a8c);
+            
+    
+            var popup_fe4b2c97a20341f0a9b478df1ca77ac4 = L.popup({maxWidth: '300'});
+
+            
+                var html_5dfc8dbfd4984bf9bafe1233615ec5ef = $('<div id="html_5dfc8dbfd4984bf9bafe1233615ec5ef" style="width: 100.0%; height: 100.0%;">Particular - Colegio Tabor y Nazareth - 657.1 - Lo Barnechea</div>')[0];
+                popup_fe4b2c97a20341f0a9b478df1ca77ac4.setContent(html_5dfc8dbfd4984bf9bafe1233615ec5ef);
+            
+
+            marker_06b7dfbd5538484c86f6e72721a4590c.bindPopup(popup_fe4b2c97a20341f0a9b478df1ca77ac4);
+
+            
+        
+    
+
+            var marker_d03943cab5704d37b82efb696f1ace66 = L.marker(
+                [-33.39849825,-70.5698888938327],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_e32e96ebaca14bd9b4965bbe8d53e874 = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d03943cab5704d37b82efb696f1ace66.setIcon(icon_e32e96ebaca14bd9b4965bbe8d53e874);
+            
+    
+            var popup_6b80950f348c40d791da6fafc071a02d = L.popup({maxWidth: '300'});
+
+            
+                var html_88ece96b5bdb4dfbab480f174ae11d1c = $('<div id="html_88ece96b5bdb4dfbab480f174ae11d1c" style="width: 100.0%; height: 100.0%;">Particular - Colegio Alemán de Santiago - 656.9 - Las Condes</div>')[0];
+                popup_6b80950f348c40d791da6fafc071a02d.setContent(html_88ece96b5bdb4dfbab480f174ae11d1c);
+            
+
+            marker_d03943cab5704d37b82efb696f1ace66.bindPopup(popup_6b80950f348c40d791da6fafc071a02d);
+
+            
+        
+    
+
+            var marker_6aafec9634c1402dbb31af92a86ef40c = L.marker(
+                [-33.42625505,-70.6107939984346],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_1c65522cd8c8422982bba64eb2000215 = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6aafec9634c1402dbb31af92a86ef40c.setIcon(icon_1c65522cd8c8422982bba64eb2000215);
+            
+    
+            var popup_54fc87ff8b85404cb5cc0ea1394b95e3 = L.popup({maxWidth: '300'});
+
+            
+                var html_8d5435417ee34cbf8817344b074672a1 = $('<div id="html_8d5435417ee34cbf8817344b074672a1" style="width: 100.0%; height: 100.0%;">Particular - Colegio Alemán Sankt Thomas Morus - 656.3 - Providencia</div>')[0];
+                popup_54fc87ff8b85404cb5cc0ea1394b95e3.setContent(html_8d5435417ee34cbf8817344b074672a1);
+            
+
+            marker_6aafec9634c1402dbb31af92a86ef40c.bindPopup(popup_54fc87ff8b85404cb5cc0ea1394b95e3);
+
+            
+        
+    
+
+            var marker_9acf762224a448149a31fd49630e8d0f = L.marker(
+                [-33.3784759,-70.5501737],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_8445692581814648ad1c62589b3e0aca = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9acf762224a448149a31fd49630e8d0f.setIcon(icon_8445692581814648ad1c62589b3e0aca);
+            
+    
+            var popup_51c5c2c534724422bf1ba44eab40070f = L.popup({maxWidth: '300'});
+
+            
+                var html_67ed364d5c904607bc09c1fd119fedb6 = $('<div id="html_67ed364d5c904607bc09c1fd119fedb6" style="width: 100.0%; height: 100.0%;">Particular - Colegio de los Sagrados Corazones - 655.1 - Vitacura</div>')[0];
+                popup_51c5c2c534724422bf1ba44eab40070f.setContent(html_67ed364d5c904607bc09c1fd119fedb6);
+            
+
+            marker_9acf762224a448149a31fd49630e8d0f.bindPopup(popup_51c5c2c534724422bf1ba44eab40070f);
+
+            
+        
+    
+
+            var marker_6cee68021c6041e6bdd9b1b72505d1d6 = L.marker(
+                [-33.440636,-70.6077678],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_57874af00f9146e69e028ccbb6079f5f = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6cee68021c6041e6bdd9b1b72505d1d6.setIcon(icon_57874af00f9146e69e028ccbb6079f5f);
+            
+    
+            var popup_7b2a493e4f4c45448a1928bb20e60483 = L.popup({maxWidth: '300'});
+
+            
+                var html_75bc8f16796a4d7185c38c700b6dee36 = $('<div id="html_75bc8f16796a4d7185c38c700b6dee36" style="width: 100.0%; height: 100.0%;">Particular - Colegio Pedro de Valdivia - 654.5 - Providencia</div>')[0];
+                popup_7b2a493e4f4c45448a1928bb20e60483.setContent(html_75bc8f16796a4d7185c38c700b6dee36);
+            
+
+            marker_6cee68021c6041e6bdd9b1b72505d1d6.bindPopup(popup_7b2a493e4f4c45448a1928bb20e60483);
+
+            
+        
+    
+
+            var marker_e335d37b9c784bbb87fa2279e5c7c29f = L.marker(
+                [-33.4551968,-70.5891055],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_4f3fb0c4c1dd459e99c0d732bfec2dc5 = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e335d37b9c784bbb87fa2279e5c7c29f.setIcon(icon_4f3fb0c4c1dd459e99c0d732bfec2dc5);
+            
+    
+            var popup_9b6c1435e5754d5a8792ae94b5bb8c4a = L.popup({maxWidth: '300'});
+
+            
+                var html_43bb10d09f3e410ba430474bea427224 = $('<div id="html_43bb10d09f3e410ba430474bea427224" style="width: 100.0%; height: 100.0%;">Particular - Colegio Akros - 654.0 - Ñuñoa</div>')[0];
+                popup_9b6c1435e5754d5a8792ae94b5bb8c4a.setContent(html_43bb10d09f3e410ba430474bea427224);
+            
+
+            marker_e335d37b9c784bbb87fa2279e5c7c29f.bindPopup(popup_9b6c1435e5754d5a8792ae94b5bb8c4a);
+
+            
+        
+    
+
+            var marker_fd952a56c0d24dc98da87dd52390640f = L.marker(
+                [-36.784576,-73.060369],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_c38a41205c0b4d7f97cd6086ba4dac8a = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_fd952a56c0d24dc98da87dd52390640f.setIcon(icon_c38a41205c0b4d7f97cd6086ba4dac8a);
+            
+    
+            var popup_1849c0d25cd5418d88f19364f2b05467 = L.popup({maxWidth: '300'});
+
+            
+                var html_fb96c23adb9e4482aaaeab5204e4ae7b = $('<div id="html_fb96c23adb9e4482aaaeab5204e4ae7b" style="width: 100.0%; height: 100.0%;">Particular - The Thomas Jefferson School - 653.5 - Talcahuano</div>')[0];
+                popup_1849c0d25cd5418d88f19364f2b05467.setContent(html_fb96c23adb9e4482aaaeab5204e4ae7b);
+            
+
+            marker_fd952a56c0d24dc98da87dd52390640f.bindPopup(popup_1849c0d25cd5418d88f19364f2b05467);
+
+            
+        
+    
+
+            var marker_555d4c00637b4739807c7e5a2de3fc97 = L.marker(
+                [-33.3947866,-70.5820801],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_fc0066e2341d4706b0162c2323228301 = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_555d4c00637b4739807c7e5a2de3fc97.setIcon(icon_fc0066e2341d4706b0162c2323228301);
+            
+    
+            var popup_700ef64ad69542bab57a18de16fa74eb = L.popup({maxWidth: '300'});
+
+            
+                var html_5cfe487081ee431cbd48131ac1b7e23c = $('<div id="html_5cfe487081ee431cbd48131ac1b7e23c" style="width: 100.0%; height: 100.0%;">Particular - Lycée Antoine de Saint-Exupéry - 653.4 - Vitacura</div>')[0];
+                popup_700ef64ad69542bab57a18de16fa74eb.setContent(html_5cfe487081ee431cbd48131ac1b7e23c);
+            
+
+            marker_555d4c00637b4739807c7e5a2de3fc97.bindPopup(popup_700ef64ad69542bab57a18de16fa74eb);
+
+            
+        
+    
+
+            var marker_e9b1c5194f0f4f4eabbac7d076ec6675 = L.marker(
+                [-33.35034715,-70.6839407930914],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_38873710c69c404a8e38b796f1d07d90 = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e9b1c5194f0f4f4eabbac7d076ec6675.setIcon(icon_38873710c69c404a8e38b796f1d07d90);
+            
+    
+            var popup_89d96286c82e4247bc795c8e2fce6116 = L.popup({maxWidth: '300'});
+
+            
+                var html_5c22f7dd2fb443e9ba8c7939e1312feb = $('<div id="html_5c22f7dd2fb443e9ba8c7939e1312feb" style="width: 100.0%; height: 100.0%;">Particular - Colegio San Francisco Javier de Huechuraba - 652.9 - Huechuraba</div>')[0];
+                popup_89d96286c82e4247bc795c8e2fce6116.setContent(html_5c22f7dd2fb443e9ba8c7939e1312feb);
+            
+
+            marker_e9b1c5194f0f4f4eabbac7d076ec6675.bindPopup(popup_89d96286c82e4247bc795c8e2fce6116);
+
+            
+        
+    
+
+            var marker_750b5a8c8cdd4bd397f49af60c3462f4 = L.marker(
+                [-32.953214,-71.5375367524631],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_eb5d5823725d42f086c611f7f04e36fd = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_750b5a8c8cdd4bd397f49af60c3462f4.setIcon(icon_eb5d5823725d42f086c611f7f04e36fd);
+            
+    
+            var popup_086afac4389f4e53b885fd81a2e063b5 = L.popup({maxWidth: '300'});
+
+            
+                var html_cf7fc830643a4ae2b08a4bf80929e945 = $('<div id="html_cf7fc830643a4ae2b08a4bf80929e945" style="width: 100.0%; height: 100.0%;">Particular - Colegio Sagrada Familia - 652.9 - Viña del Mar</div>')[0];
+                popup_086afac4389f4e53b885fd81a2e063b5.setContent(html_cf7fc830643a4ae2b08a4bf80929e945);
+            
+
+            marker_750b5a8c8cdd4bd397f49af60c3462f4.bindPopup(popup_086afac4389f4e53b885fd81a2e063b5);
+
+            
+        
+    
+
+            var marker_881095e260074e6aa254db149f145776 = L.marker(
+                [-33.3335136,-70.5552317519729],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_cb0069ab0f024dbab9e9f12eceb1f3f3 = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_881095e260074e6aa254db149f145776.setIcon(icon_cb0069ab0f024dbab9e9f12eceb1f3f3);
+            
+    
+            var popup_cf335b0ec7ce43618d59add9ed6a22af = L.popup({maxWidth: '300'});
+
+            
+                var html_158445397ca144fc9c8ac1ed0d342877 = $('<div id="html_158445397ca144fc9c8ac1ed0d342877" style="width: 100.0%; height: 100.0%;">Particular - Colegio Everest - 652.9 - Lo Barnechea</div>')[0];
+                popup_cf335b0ec7ce43618d59add9ed6a22af.setContent(html_158445397ca144fc9c8ac1ed0d342877);
+            
+
+            marker_881095e260074e6aa254db149f145776.bindPopup(popup_cf335b0ec7ce43618d59add9ed6a22af);
+
+            
+        
+    
+
+            var marker_eefa88b0bde14c28bbcf731a2106e2b7 = L.marker(
+                [-29.9176152,-71.2551169932687],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_082dc9c0912442798f48a5c8efcd6448 = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_eefa88b0bde14c28bbcf731a2106e2b7.setIcon(icon_082dc9c0912442798f48a5c8efcd6448);
+            
+    
+            var popup_cbdf2a43aa9c495b9f877da7eae50b8e = L.popup({maxWidth: '300'});
+
+            
+                var html_c074f05b09e94d04a58f964a08d5dc4e = $('<div id="html_c074f05b09e94d04a58f964a08d5dc4e" style="width: 100.0%; height: 100.0%;">Particular - Colegio Serena - 652.7 - La Serena</div>')[0];
+                popup_cbdf2a43aa9c495b9f877da7eae50b8e.setContent(html_c074f05b09e94d04a58f964a08d5dc4e);
+            
+
+            marker_eefa88b0bde14c28bbcf731a2106e2b7.bindPopup(popup_cbdf2a43aa9c495b9f877da7eae50b8e);
+
+            
+        
+    
+
+            var marker_13f63e1d12fa4027aeeb078b09f0a230 = L.marker(
+                [-33.3933445,-70.5990144520582],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_c1b3e5fab76d40eab3415daa6a8ce20f = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_13f63e1d12fa4027aeeb078b09f0a230.setIcon(icon_c1b3e5fab76d40eab3415daa6a8ce20f);
+            
+    
+            var popup_6011e2ebd7b94684a0190419b24a2bd4 = L.popup({maxWidth: '300'});
+
+            
+                var html_d09b96b601924fd085f18118da725587 = $('<div id="html_d09b96b601924fd085f18118da725587" style="width: 100.0%; height: 100.0%;">Particular - Colegio Santa Úrsula - 652.6 - Vitacura</div>')[0];
+                popup_6011e2ebd7b94684a0190419b24a2bd4.setContent(html_d09b96b601924fd085f18118da725587);
+            
+
+            marker_13f63e1d12fa4027aeeb078b09f0a230.bindPopup(popup_6011e2ebd7b94684a0190419b24a2bd4);
+
+            
+        
+    
+
+            var marker_af36600a2952442e93aba7897ac31057 = L.marker(
+                [-33.7627216,-70.7464091],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_8f49ac0b9bca495f8b9984f7462fb39e = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_af36600a2952442e93aba7897ac31057.setIcon(icon_8f49ac0b9bca495f8b9984f7462fb39e);
+            
+    
+            var popup_b0e41450ede244f98ce82ba8527a3e2f = L.popup({maxWidth: '300'});
+
+            
+                var html_8e0337f9813947b49a333b6029a8a045 = $('<div id="html_8e0337f9813947b49a333b6029a8a045" style="width: 100.0%; height: 100.0%;">Particular - Colegio San Isidro - 652.5 - Buin</div>')[0];
+                popup_b0e41450ede244f98ce82ba8527a3e2f.setContent(html_8e0337f9813947b49a333b6029a8a045);
+            
+
+            marker_af36600a2952442e93aba7897ac31057.bindPopup(popup_b0e41450ede244f98ce82ba8527a3e2f);
+
+            
+        
+    
+
+            var marker_c0d8a8d7d5354ae99083531677ec8b34 = L.marker(
+                [-34.43929895,-71.0847090631952],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_eb7e4305da004c1ba88bf4ba8fda5ed5 = L.AwesomeMarkers.icon({
+                    icon: 'star',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c0d8a8d7d5354ae99083531677ec8b34.setIcon(icon_eb7e4305da004c1ba88bf4ba8fda5ed5);
+            
+    
+            var popup_6d8d9813a4a148e387bf889e6e3796a8 = L.popup({maxWidth: '300'});
+
+            
+                var html_4bef6be97f574e31ac7521043d4d3b25 = $('<div id="html_4bef6be97f574e31ac7521043d4d3b25" style="width: 100.0%; height: 100.0%;">Subvencionado - Colegio El Salvador - 652.5 - San Vicente</div>')[0];
+                popup_6d8d9813a4a148e387bf889e6e3796a8.setContent(html_4bef6be97f574e31ac7521043d4d3b25);
+            
+
+            marker_c0d8a8d7d5354ae99083531677ec8b34.bindPopup(popup_6d8d9813a4a148e387bf889e6e3796a8);
+
+            
+        
+    
+
+            var marker_f79b6240459d44aabbb29f6cfba3673f = L.marker(
+                [-34.1736889,-70.7421855124169],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_6d6be82d9b3541edac8e78fa2ea628b0 = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f79b6240459d44aabbb29f6cfba3673f.setIcon(icon_6d6be82d9b3541edac8e78fa2ea628b0);
+            
+    
+            var popup_63cc317c17214ef9b1cc41511532bc90 = L.popup({maxWidth: '300'});
+
+            
+                var html_3776b86ce2e840c5b4a38081e4d18479 = $('<div id="html_3776b86ce2e840c5b4a38081e4d18479" style="width: 100.0%; height: 100.0%;">Particular - Instituto O´Higgins - 652.3 - Rancagua</div>')[0];
+                popup_63cc317c17214ef9b1cc41511532bc90.setContent(html_3776b86ce2e840c5b4a38081e4d18479);
+            
+
+            marker_f79b6240459d44aabbb29f6cfba3673f.bindPopup(popup_63cc317c17214ef9b1cc41511532bc90);
+
+            
+        
+    
+
+            var marker_d63c5f4271da46cda1dcd98ffafeaaac = L.marker(
+                [-33.4489771,-70.5848915],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_78f6fb16bad84d268ab1c0fcb09e22c6 = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d63c5f4271da46cda1dcd98ffafeaaac.setIcon(icon_78f6fb16bad84d268ab1c0fcb09e22c6);
+            
+    
+            var popup_a69ba3c1da564bffbefd399fbd23d403 = L.popup({maxWidth: '300'});
+
+            
+                var html_8a4b3aff5c024a5b9d147d88e022d8d5 = $('<div id="html_8a4b3aff5c024a5b9d147d88e022d8d5" style="width: 100.0%; height: 100.0%;">Particular - Colegio Calasanz - 652.3 - Ñuñoa</div>')[0];
+                popup_a69ba3c1da564bffbefd399fbd23d403.setContent(html_8a4b3aff5c024a5b9d147d88e022d8d5);
+            
+
+            marker_d63c5f4271da46cda1dcd98ffafeaaac.bindPopup(popup_a69ba3c1da564bffbefd399fbd23d403);
+
+            
+        
+    
+
+            var marker_9a9ef613062e4c0ca7e5be768a5e4714 = L.marker(
+                [-33.4419773,-70.6645155],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_fee0b5372ab64c0c9e2287c29251e847 = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9a9ef613062e4c0ca7e5be768a5e4714.setIcon(icon_fee0b5372ab64c0c9e2287c29251e847);
+            
+    
+            var popup_b20d91a374004de0ba8873bbf6b225d4 = L.popup({maxWidth: '300'});
+
+            
+                var html_16cdf91710724d0490a0fa6ce4e4a791 = $('<div id="html_16cdf91710724d0490a0fa6ce4e4a791" style="width: 100.0%; height: 100.0%;">Particular - Colegio Pedro de Valdivia Agustinas - 652.1 - Santiago</div>')[0];
+                popup_b20d91a374004de0ba8873bbf6b225d4.setContent(html_16cdf91710724d0490a0fa6ce4e4a791);
+            
+
+            marker_9a9ef613062e4c0ca7e5be768a5e4714.bindPopup(popup_b20d91a374004de0ba8873bbf6b225d4);
+
+            
+        
+    
+
+            var marker_76f0eb7818a04aeabae767410aad859c = L.marker(
+                [-27.38770715,-70.296433063246],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_cc618f21e4234bfca77fb87036d3059c = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_76f0eb7818a04aeabae767410aad859c.setIcon(icon_cc618f21e4234bfca77fb87036d3059c);
+            
+    
+            var popup_a0b2baff5c1c4452a17e73471ed4560d = L.popup({maxWidth: '300'});
+
+            
+                var html_c4d35195b54941258d5be69036ee1ac2 = $('<div id="html_c4d35195b54941258d5be69036ee1ac2" style="width: 100.0%; height: 100.0%;">Particular - Colegio Particular San Lorenzo - 651.9 - Copiapó</div>')[0];
+                popup_a0b2baff5c1c4452a17e73471ed4560d.setContent(html_c4d35195b54941258d5be69036ee1ac2);
+            
+
+            marker_76f0eb7818a04aeabae767410aad859c.bindPopup(popup_a0b2baff5c1c4452a17e73471ed4560d);
+
+            
+        
+    
+
+            var marker_5822e724e7734623a0924c8e6f829461 = L.marker(
+                [-36.8003046,-73.0859965],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_7feea53bea2a40ad9691044a44aee1a2 = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5822e724e7734623a0924c8e6f829461.setIcon(icon_7feea53bea2a40ad9691044a44aee1a2);
+            
+    
+            var popup_01f97d1a146e477ab79ba9811bcf4b9f = L.popup({maxWidth: '300'});
+
+            
+                var html_16e478c7080649e394260b243609df7e = $('<div id="html_16e478c7080649e394260b243609df7e" style="width: 100.0%; height: 100.0%;">Particular - Sagrados Corazones - 651.7 - Hualpén</div>')[0];
+                popup_01f97d1a146e477ab79ba9811bcf4b9f.setContent(html_16e478c7080649e394260b243609df7e);
+            
+
+            marker_5822e724e7734623a0924c8e6f829461.bindPopup(popup_01f97d1a146e477ab79ba9811bcf4b9f);
+
+            
+        
+    
+
+            var marker_fa6c531336ad4bf5beffd3a87f7da5de = L.marker(
+                [-53.1554773,-70.9050057],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_6753b5e4a8354dbf927644a5b8c3bb3a = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_fa6c531336ad4bf5beffd3a87f7da5de.setIcon(icon_6753b5e4a8354dbf927644a5b8c3bb3a);
+            
+    
+            var popup_b9ce7ff8ea4e4ac4b03efd92d2681d2f = L.popup({maxWidth: '300'});
+
+            
+                var html_8e0cf52ab2fc445eb25aba13509e99a7 = $('<div id="html_8e0cf52ab2fc445eb25aba13509e99a7" style="width: 100.0%; height: 100.0%;">Particular - Colegio Cruz del Sur - 651.6 - Punta Arenas</div>')[0];
+                popup_b9ce7ff8ea4e4ac4b03efd92d2681d2f.setContent(html_8e0cf52ab2fc445eb25aba13509e99a7);
+            
+
+            marker_fa6c531336ad4bf5beffd3a87f7da5de.bindPopup(popup_b9ce7ff8ea4e4ac4b03efd92d2681d2f);
+
+            
+        
+    
+
+            var marker_41581536f5b0415196b9928e8f19e52c = L.marker(
+                [-33.28656355,-70.6933838351205],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_039061432ad4495ab43e3f78d41a0f7e = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_41581536f5b0415196b9928e8f19e52c.setIcon(icon_039061432ad4495ab43e3f78d41a0f7e);
+            
+    
+            var popup_5145e547a5b1420b8a3bfe7942fed511 = L.popup({maxWidth: '300'});
+
+            
+                var html_edfc4d4da80540efbdd6bc00f08841c0 = $('<div id="html_edfc4d4da80540efbdd6bc00f08841c0" style="width: 100.0%; height: 100.0%;">Particular - Colegio Santa Cruz de Chicureo - 651.4 - Colina</div>')[0];
+                popup_5145e547a5b1420b8a3bfe7942fed511.setContent(html_edfc4d4da80540efbdd6bc00f08841c0);
+            
+
+            marker_41581536f5b0415196b9928e8f19e52c.bindPopup(popup_5145e547a5b1420b8a3bfe7942fed511);
+
+            
+        
+    
+
+            var marker_f614feef1dd64da69421b82d6cfa5a85 = L.marker(
+                [-38.7370222,-72.6137053],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_fc744eaba3e745048f6944df44abc01b = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f614feef1dd64da69421b82d6cfa5a85.setIcon(icon_fc744eaba3e745048f6944df44abc01b);
+            
+    
+            var popup_8e1934c4600349ca8a8e82f4bde21444 = L.popup({maxWidth: '300'});
+
+            
+                var html_810d9e388ba845f29e9a74275d6ab9d8 = $('<div id="html_810d9e388ba845f29e9a74275d6ab9d8" style="width: 100.0%; height: 100.0%;">Particular - Colegio Alemán - 651.1 - Temuco</div>')[0];
+                popup_8e1934c4600349ca8a8e82f4bde21444.setContent(html_810d9e388ba845f29e9a74275d6ab9d8);
+            
+
+            marker_f614feef1dd64da69421b82d6cfa5a85.bindPopup(popup_8e1934c4600349ca8a8e82f4bde21444);
+
+            
+        
+    
+
+            var marker_198cc20a6f2f499ea1c86a85fb486067 = L.marker(
+                [-33.4136656,-70.5124946],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_6f8169e831fa46cb8740d86c97c16eb4 = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_198cc20a6f2f499ea1c86a85fb486067.setIcon(icon_6f8169e831fa46cb8740d86c97c16eb4);
+            
+    
+            var popup_2823e45db7684263b5edc5ba0767aa90 = L.popup({maxWidth: '300'});
+
+            
+                var html_60beeedf81464107a434d47badc92a8a = $('<div id="html_60beeedf81464107a434d47badc92a8a" style="width: 100.0%; height: 100.0%;">Particular - Colegio Padre Hurtado y Juanita de Los Andes - 651.0 - Las Condes</div>')[0];
+                popup_2823e45db7684263b5edc5ba0767aa90.setContent(html_60beeedf81464107a434d47badc92a8a);
+            
+
+            marker_198cc20a6f2f499ea1c86a85fb486067.bindPopup(popup_2823e45db7684263b5edc5ba0767aa90);
+
+            
+        
+    
+
+            var marker_aced60d1f0c84c12a24cd023970d68c5 = L.marker(
+                [-33.4566587,-70.6084014],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_86f3fecf6fd849fbab9ec264c1e84b5a = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_aced60d1f0c84c12a24cd023970d68c5.setIcon(icon_86f3fecf6fd849fbab9ec264c1e84b5a);
+            
+    
+            var popup_ad5432cc815d49d8bbf1e6ee08fa5f7c = L.popup({maxWidth: '300'});
+
+            
+                var html_d712ccd74ddd4203817680d16379ad5f = $('<div id="html_d712ccd74ddd4203817680d16379ad5f" style="width: 100.0%; height: 100.0%;">Particular - Colegio Suizo de Santiago - 650.6 - Ñuñoa</div>')[0];
+                popup_ad5432cc815d49d8bbf1e6ee08fa5f7c.setContent(html_d712ccd74ddd4203817680d16379ad5f);
+            
+
+            marker_aced60d1f0c84c12a24cd023970d68c5.bindPopup(popup_ad5432cc815d49d8bbf1e6ee08fa5f7c);
+
+            
+        
+    
+
+            var marker_847627ac2be94a719c2f3e5194c1d13d = L.marker(
+                [-33.4970005,-70.5467595888828],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_829107bedcba408483f3a3c2dd1fa07d = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_847627ac2be94a719c2f3e5194c1d13d.setIcon(icon_829107bedcba408483f3a3c2dd1fa07d);
+            
+    
+            var popup_eab29054d524499d9a4e4e9e0a23d9a1 = L.popup({maxWidth: '300'});
+
+            
+                var html_3114177de94e4eefbaf7210c5f4bf7ba = $('<div id="html_3114177de94e4eefbaf7210c5f4bf7ba" style="width: 100.0%; height: 100.0%;">Particular - Colegio Pumahue - 650.1 - Peñalolén</div>')[0];
+                popup_eab29054d524499d9a4e4e9e0a23d9a1.setContent(html_3114177de94e4eefbaf7210c5f4bf7ba);
+            
+
+            marker_847627ac2be94a719c2f3e5194c1d13d.bindPopup(popup_eab29054d524499d9a4e4e9e0a23d9a1);
+
+            
+        
+    
+
+            var marker_d79ff4169d104ab1822eb7294234c3f2 = L.marker(
+                [-33.49310465,-70.5765969648749],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_628d31fce28b44279c17a889856f0046 = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d79ff4169d104ab1822eb7294234c3f2.setIcon(icon_628d31fce28b44279c17a889856f0046);
+            
+    
+            var popup_9e545fa35bb541de850f6c8d14b2b402 = L.popup({maxWidth: '300'});
+
+            
+                var html_85f071a6270e42b8a511cea06502c183 = $('<div id="html_85f071a6270e42b8a511cea06502c183" style="width: 100.0%; height: 100.0%;">Particular - Colegio Pedro de Valdivia - Peñalolén - 649.6 - Peñalolén</div>')[0];
+                popup_9e545fa35bb541de850f6c8d14b2b402.setContent(html_85f071a6270e42b8a511cea06502c183);
+            
+
+            marker_d79ff4169d104ab1822eb7294234c3f2.bindPopup(popup_9e545fa35bb541de850f6c8d14b2b402);
+
+            
+        
+    
+
+            var marker_7026046ab2b842d9b4779a48ee866bb3 = L.marker(
+                [-33.410778,-70.5220646],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_ee29b26af3f148f189ad426460892e8f = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7026046ab2b842d9b4779a48ee866bb3.setIcon(icon_ee29b26af3f148f189ad426460892e8f);
+            
+    
+            var popup_e41ae5a2b2de416c9c8773c78e25c57d = L.popup({maxWidth: '300'});
+
+            
+                var html_019d38692784458e806506f4d98b67bd = $('<div id="html_019d38692784458e806506f4d98b67bd" style="width: 100.0%; height: 100.0%;">Particular - Colegio Wenlock School - 649.0 - Las Condes</div>')[0];
+                popup_e41ae5a2b2de416c9c8773c78e25c57d.setContent(html_019d38692784458e806506f4d98b67bd);
+            
+
+            marker_7026046ab2b842d9b4779a48ee866bb3.bindPopup(popup_e41ae5a2b2de416c9c8773c78e25c57d);
+
+            
+        
+    
+
+            var marker_ae8cea990fb5446bb8b9ad35b12d9e87 = L.marker(
+                [-33.0390072,-71.5260857],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_5c1e2c9206ba4493a3ab5e3c79b56fd8 = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ae8cea990fb5446bb8b9ad35b12d9e87.setIcon(icon_5c1e2c9206ba4493a3ab5e3c79b56fd8);
+            
+    
+            var popup_5cb343ec2bcd4cc3a07cfd22ce0e69f5 = L.popup({maxWidth: '300'});
+
+            
+                var html_5454b988e35e46f9a8608fa56f087fc9 = $('<div id="html_5454b988e35e46f9a8608fa56f087fc9" style="width: 100.0%; height: 100.0%;">Particular - Colegio Alemán de Valparaíso - 648.3 - Viña del Mar</div>')[0];
+                popup_5cb343ec2bcd4cc3a07cfd22ce0e69f5.setContent(html_5454b988e35e46f9a8608fa56f087fc9);
+            
+
+            marker_ae8cea990fb5446bb8b9ad35b12d9e87.bindPopup(popup_5cb343ec2bcd4cc3a07cfd22ce0e69f5);
+
+            
+        
+    
+
+            var marker_c4ef5c81b5e142d0b640ac99be7caed2 = L.marker(
+                [-33.388298,-70.5796385],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_e50b5729660648e7af003e89781a6746 = L.AwesomeMarkers.icon({
+                    icon: 'star',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c4ef5c81b5e142d0b640ac99be7caed2.setIcon(icon_e50b5729660648e7af003e89781a6746);
+            
+    
+            var popup_fb30c36eebc344e1bdee5e4473932cd3 = L.popup({maxWidth: '300'});
+
+            
+                var html_43e21485ff144a0ca25ba1f1d2f6a04e = $('<div id="html_43e21485ff144a0ca25ba1f1d2f6a04e" style="width: 100.0%; height: 100.0%;">Subvencionado - Liceo María Luisa Bombal - 648.0 - Vitacura</div>')[0];
+                popup_fb30c36eebc344e1bdee5e4473932cd3.setContent(html_43e21485ff144a0ca25ba1f1d2f6a04e);
+            
+
+            marker_c4ef5c81b5e142d0b640ac99be7caed2.bindPopup(popup_fb30c36eebc344e1bdee5e4473932cd3);
+
+            
+        
+    
+
+            var marker_ce5c4ba4362f407eafc4817412c9680c = L.marker(
+                [-33.3630003,-70.5101596],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_4d053efd6b7249489ffb726e5753dcf4 = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ce5c4ba4362f407eafc4817412c9680c.setIcon(icon_4d053efd6b7249489ffb726e5753dcf4);
+            
+    
+            var popup_fd830034c2464bc28256ed6077556d9a = L.popup({maxWidth: '300'});
+
+            
+                var html_fed4c68de8e34f098c64b74380a8c417 = $('<div id="html_fed4c68de8e34f098c64b74380a8c417" style="width: 100.0%; height: 100.0%;">Particular - Colegio Craighouse - 647.7 - Lo Barnechea</div>')[0];
+                popup_fd830034c2464bc28256ed6077556d9a.setContent(html_fed4c68de8e34f098c64b74380a8c417);
+            
+
+            marker_ce5c4ba4362f407eafc4817412c9680c.bindPopup(popup_fd830034c2464bc28256ed6077556d9a);
+
+            
+        
+    
+
+            var marker_deba3e1b1bd44d7b805176d0e3e9a5b4 = L.marker(
+                [-35.4509891,-71.5969145],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_e52f6afb195f46cd9e51a9ad8d833b24 = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_deba3e1b1bd44d7b805176d0e3e9a5b4.setIcon(icon_e52f6afb195f46cd9e51a9ad8d833b24);
+            
+    
+            var popup_b1c88a1fbada431a9c81849e3d93c666 = L.popup({maxWidth: '300'});
+
+            
+                var html_79c7d10ea04040a98140733fc0cd1543 = $('<div id="html_79c7d10ea04040a98140733fc0cd1543" style="width: 100.0%; height: 100.0%;">Particular - Colegio Inglés - 647.6 - Talca</div>')[0];
+                popup_b1c88a1fbada431a9c81849e3d93c666.setContent(html_79c7d10ea04040a98140733fc0cd1543);
+            
+
+            marker_deba3e1b1bd44d7b805176d0e3e9a5b4.bindPopup(popup_b1c88a1fbada431a9c81849e3d93c666);
+
+            
+        
+    
+
+            var marker_e9d3f598f17a4cacb8e9cd0a4e938653 = L.marker(
+                [-35.32940015,-72.4131335016564],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_7ee74ab1667d432aac57f42eb3d4e751 = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e9d3f598f17a4cacb8e9cd0a4e938653.setIcon(icon_7ee74ab1667d432aac57f42eb3d4e751);
+            
+    
+            var popup_4054e0a980e94ab691905948752ea041 = L.popup({maxWidth: '300'});
+
+            
+                var html_dbba099d79c84323a88f5acc22ab1797 = $('<div id="html_dbba099d79c84323a88f5acc22ab1797" style="width: 100.0%; height: 100.0%;">Particular - Colegio Constitución - 647.6 - Constitución</div>')[0];
+                popup_4054e0a980e94ab691905948752ea041.setContent(html_dbba099d79c84323a88f5acc22ab1797);
+            
+
+            marker_e9d3f598f17a4cacb8e9cd0a4e938653.bindPopup(popup_4054e0a980e94ab691905948752ea041);
+
+            
+        
+    
+
+            var marker_5f8c1252b75247e6a802293ae994d019 = L.marker(
+                [-29.90419045,-71.2437038239713],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_7cbf4b4a511a402ab912dce661fe599b = L.AwesomeMarkers.icon({
+                    icon: 'star',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5f8c1252b75247e6a802293ae994d019.setIcon(icon_7cbf4b4a511a402ab912dce661fe599b);
+            
+    
+            var popup_70e868375425454c9b27ddc93da6871a = L.popup({maxWidth: '300'});
+
+            
+                var html_f4ede1da963944e2917c2d6472803c88 = $('<div id="html_f4ede1da963944e2917c2d6472803c88" style="width: 100.0%; height: 100.0%;">Subvencionado - Colegio Gerónimo Rendic - 647.5 - La Serena</div>')[0];
+                popup_70e868375425454c9b27ddc93da6871a.setContent(html_f4ede1da963944e2917c2d6472803c88);
+            
+
+            marker_5f8c1252b75247e6a802293ae994d019.bindPopup(popup_70e868375425454c9b27ddc93da6871a);
+
+            
+        
+    
+
+            var marker_4e8ee805115645928ec5b7d6e21f118e = L.marker(
+                [-33.4599669,-70.6050505],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_1692bddb4c4349839b1570d2202d8481 = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4e8ee805115645928ec5b7d6e21f118e.setIcon(icon_1692bddb4c4349839b1570d2202d8481);
+            
+    
+            var popup_ba61b61c8fa8457794687162a0c8d239 = L.popup({maxWidth: '300'});
+
+            
+                var html_b07981417bd24b39b70c6a038cf27a81 = $('<div id="html_b07981417bd24b39b70c6a038cf27a81" style="width: 100.0%; height: 100.0%;">Particular - Colegio Saint Gaspar College - 647.3 - Ñuñoa</div>')[0];
+                popup_ba61b61c8fa8457794687162a0c8d239.setContent(html_b07981417bd24b39b70c6a038cf27a81);
+            
+
+            marker_4e8ee805115645928ec5b7d6e21f118e.bindPopup(popup_ba61b61c8fa8457794687162a0c8d239);
+
+            
+        
+    
+
+            var marker_00b93e9dc6d248918c0bc4f29e866022 = L.marker(
+                [-23.7282478,-70.43684449999999],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_a2d9ce86d7bc4523a221d1efa9252ccf = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_00b93e9dc6d248918c0bc4f29e866022.setIcon(icon_a2d9ce86d7bc4523a221d1efa9252ccf);
+            
+    
+            var popup_e041153bf0f5405985205d20daedfde8 = L.popup({maxWidth: '300'});
+
+            
+                var html_299ea1ae83e548b2a6d555c45f9d8d2f = $('<div id="html_299ea1ae83e548b2a6d555c45f9d8d2f" style="width: 100.0%; height: 100.0%;">Particular - Colegio Internacional Antofagasta Limitada - 646.8 - Antofagasta</div>')[0];
+                popup_e041153bf0f5405985205d20daedfde8.setContent(html_299ea1ae83e548b2a6d555c45f9d8d2f);
+            
+
+            marker_00b93e9dc6d248918c0bc4f29e866022.bindPopup(popup_e041153bf0f5405985205d20daedfde8);
+
+            
+        
+    
+
+            var marker_2945d604bc1842989c6c6058d7a88741 = L.marker(
+                [-33.3919505,-70.5094592],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_666f788c148a46e5938b011cfce5b35c = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2945d604bc1842989c6c6058d7a88741.setIcon(icon_666f788c148a46e5938b011cfce5b35c);
+            
+    
+            var popup_878014bdd6694801b3e01fff60bb6070 = L.popup({maxWidth: '300'});
+
+            
+                var html_085f2b8c29e947278e0b74ec4bb0ee34 = $('<div id="html_085f2b8c29e947278e0b74ec4bb0ee34" style="width: 100.0%; height: 100.0%;">Particular - Colegio Francisco de Asis - 645.8 - Las Condes</div>')[0];
+                popup_878014bdd6694801b3e01fff60bb6070.setContent(html_085f2b8c29e947278e0b74ec4bb0ee34);
+            
+
+            marker_2945d604bc1842989c6c6058d7a88741.bindPopup(popup_878014bdd6694801b3e01fff60bb6070);
+
+            
+        
+    
+
+            var marker_82f93fd4ecf24317bbdfe2ef457e5ab9 = L.marker(
+                [-38.7411643,-72.6377808496584],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_049cfae8a7794b4b81c579d12285786b = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_82f93fd4ecf24317bbdfe2ef457e5ab9.setIcon(icon_049cfae8a7794b4b81c579d12285786b);
+            
+    
+            var popup_9ae32fe174c247a1b61ebdfef6dee02e = L.popup({maxWidth: '300'});
+
+            
+                var html_8e916c5326ca4b4caf6d8656eb8b70ab = $('<div id="html_8e916c5326ca4b4caf6d8656eb8b70ab" style="width: 100.0%; height: 100.0%;">Particular - Green House School - 645.8 - Temuco</div>')[0];
+                popup_9ae32fe174c247a1b61ebdfef6dee02e.setContent(html_8e916c5326ca4b4caf6d8656eb8b70ab);
+            
+
+            marker_82f93fd4ecf24317bbdfe2ef457e5ab9.bindPopup(popup_9ae32fe174c247a1b61ebdfef6dee02e);
+
+            
+        
+    
+
+            var marker_7ea2d657bb3a420889b36746e58a4606 = L.marker(
+                [-33.37071395,-70.5080432049527],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_81b8ef0a12a94faf8b8a16e5c197f00e = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7ea2d657bb3a420889b36746e58a4606.setIcon(icon_81b8ef0a12a94faf8b8a16e5c197f00e);
+            
+    
+            var popup_5a10072941d744d3a724dbe251e217dd = L.popup({maxWidth: '300'});
+
+            
+                var html_83e403e93ced4102baf3c2b47e4fd9b8 = $('<div id="html_83e403e93ced4102baf3c2b47e4fd9b8" style="width: 100.0%; height: 100.0%;">Particular - Colegio Pedro de Valdivia Las Condes - 644.9 - Las Condes</div>')[0];
+                popup_5a10072941d744d3a724dbe251e217dd.setContent(html_83e403e93ced4102baf3c2b47e4fd9b8);
+            
+
+            marker_7ea2d657bb3a420889b36746e58a4606.bindPopup(popup_5a10072941d744d3a724dbe251e217dd);
+
+            
+        
+    
+
+            var marker_6d55e3f84cbe48238301ba9cd41f97e2 = L.marker(
+                [-34.1754052,-70.7231044],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_7d0f5fe7946d4c45943e8773c52decbc = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6d55e3f84cbe48238301ba9cd41f97e2.setIcon(icon_7d0f5fe7946d4c45943e8773c52decbc);
+            
+    
+            var popup_14b380d20a8c43e5af73fd6c540f7d83 = L.popup({maxWidth: '300'});
+
+            
+                var html_00ad0ed51155425e9e5ee214611b9c7b = $('<div id="html_00ad0ed51155425e9e5ee214611b9c7b" style="width: 100.0%; height: 100.0%;">Particular - Colegio Inglés Saint John - 644.0 - Rancagua</div>')[0];
+                popup_14b380d20a8c43e5af73fd6c540f7d83.setContent(html_00ad0ed51155425e9e5ee214611b9c7b);
+            
+
+            marker_6d55e3f84cbe48238301ba9cd41f97e2.bindPopup(popup_14b380d20a8c43e5af73fd6c540f7d83);
+
+            
+        
+    
+
+            var marker_3e687af381c1412a891c3b0da647d1a6 = L.marker(
+                [-32.9396604,-71.5305072],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_22b7b389912a4bdb9b24c78204f9a69d = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3e687af381c1412a891c3b0da647d1a6.setIcon(icon_22b7b389912a4bdb9b24c78204f9a69d);
+            
+    
+            var popup_c687c489596240d3af7c47eeec23f50c = L.popup({maxWidth: '300'});
+
+            
+                var html_c18fc8a71f1d4f689f9edf6764b314df = $('<div id="html_c18fc8a71f1d4f689f9edf6764b314df" style="width: 100.0%; height: 100.0%;">Particular - Colegio Británico St. Margaret´s S.A. - 643.3 - Concón</div>')[0];
+                popup_c687c489596240d3af7c47eeec23f50c.setContent(html_c18fc8a71f1d4f689f9edf6764b314df);
+            
+
+            marker_3e687af381c1412a891c3b0da647d1a6.bindPopup(popup_c687c489596240d3af7c47eeec23f50c);
+
+            
+        
+    
+
+            var marker_0341ca44c9cd4d5885809864333e0a87 = L.marker(
+                [-33.73853195,-70.6924615460235],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_1787eac4a0d64b60a2c8c27a463ad0bd = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0341ca44c9cd4d5885809864333e0a87.setIcon(icon_1787eac4a0d64b60a2c8c27a463ad0bd);
+            
+    
+            var popup_b01a414840c34a0f904d778c615d3f8d = L.popup({maxWidth: '300'});
+
+            
+                var html_be6f52e331c0474d89519fbfa1e3e37d = $('<div id="html_be6f52e331c0474d89519fbfa1e3e37d" style="width: 100.0%; height: 100.0%;">Particular - Colegio Campanario - 643.2 - Buin</div>')[0];
+                popup_b01a414840c34a0f904d778c615d3f8d.setContent(html_be6f52e331c0474d89519fbfa1e3e37d);
+            
+
+            marker_0341ca44c9cd4d5885809864333e0a87.bindPopup(popup_b01a414840c34a0f904d778c615d3f8d);
+
+            
+        
+    
+
+            var marker_2b08cc67b39641439fda755042471bbc = L.marker(
+                [-33.30656115,-70.6664782184677],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_15f8ab9f8d2a4195807d89bafb1ec85c = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2b08cc67b39641439fda755042471bbc.setIcon(icon_15f8ab9f8d2a4195807d89bafb1ec85c);
+            
+    
+            var popup_61cda88bbdb04b41b49a13db7ae7e416 = L.popup({maxWidth: '300'});
+
+            
+                var html_889834587c8a4fe48a992321c151fda2 = $('<div id="html_889834587c8a4fe48a992321c151fda2" style="width: 100.0%; height: 100.0%;">Particular - Colegio Dunalastair Valle Norte - 643.2 - Colina</div>')[0];
+                popup_61cda88bbdb04b41b49a13db7ae7e416.setContent(html_889834587c8a4fe48a992321c151fda2);
+            
+
+            marker_2b08cc67b39641439fda755042471bbc.bindPopup(popup_61cda88bbdb04b41b49a13db7ae7e416);
+
+            
+        
+    
+
+            var marker_b2c1ab01490a4261b257a4dd4232e971 = L.marker(
+                [-32.8600102,-70.589402],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_86120464a0164a5d8787b332c65e73ae);
+            
+    
+
+                var icon_58e313901a454581ba508eee2e6098af = L.AwesomeMarkers.icon({
+                    icon: '',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b2c1ab01490a4261b257a4dd4232e971.setIcon(icon_58e313901a454581ba508eee2e6098af);
+            
+    
+            var popup_d3bcc07a8a764569aecff1ed2d358c9e = L.popup({maxWidth: '300'});
+
+            
+                var html_d84ffbf333724202a5aa4b1437c67021 = $('<div id="html_d84ffbf333724202a5aa4b1437c67021" style="width: 100.0%; height: 100.0%;">Particular - Sun Valley College - 642.5 - Calle Larga</div>')[0];
+                popup_d3bcc07a8a764569aecff1ed2d358c9e.setContent(html_d84ffbf333724202a5aa4b1437c67021);
+            
+
+            marker_b2c1ab01490a4261b257a4dd4232e971.bindPopup(popup_d3bcc07a8a764569aecff1ed2d358c9e);
+
+            
+        
+</script>

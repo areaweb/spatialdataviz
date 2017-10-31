@@ -2,23 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a585c16a-a267-41c9-9c5e-fdc8b3ab67d1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starsconf2017/1-colegios-pres.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starsconf2017/1-colegios-pres.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starsconf2017/2-great lines on a globe-networkx .ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starsconf2017/3-map band concerts songs.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starsconf2017/utils.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starsconf2017/utils.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/2-colegios-PRESENTACION-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2-colegios-PRESENTACION.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/great lines on a globe-Copy1.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/starsconf2017/2-great lines on a globe-networkx .ipynb" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/networkx" afterPath="$PROJECT_DIR$/networkx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/datavis.iml" afterPath="$PROJECT_DIR$/.idea/datavis.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/colegios.html" afterPath="$PROJECT_DIR$/colegios.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/great lines on a globe.ipynb" afterPath="$PROJECT_DIR$/great lines on a globe.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scrapetwitter.py" afterPath="$PROJECT_DIR$/scrapetwitter.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/starsconf2017/1-colegios-pres.ipynb" afterPath="$PROJECT_DIR$/starsconf2017/1-colegios-pres.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/starsconf2017/utils.py" afterPath="$PROJECT_DIR$/starsconf2017/utils.py" />
     </list>
     <ignored path="datavis.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,21 +30,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="utils.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/starsconf2017/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="1-colegios-pres.ipynb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/starsconf2017/1-colegios-pres.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="-1" />
+            <state relative-caret-position="270">
+              <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+              <folding>
+                <marker date="1509375850000" expanded="true" signature="247:421" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -125,6 +106,24 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="datavis" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="datavis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="datavis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="starsconf2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils.py" />
+              <option name="myItemType" value="com.jetbrains.python.projectView.PyFileNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -406,6 +405,14 @@
       <option name="presentableId" value="Default" />
       <updated>1463703221174</updated>
     </task>
+    <task id="LOCAL-00001" summary="fixed memoize prob">
+      <created>1509375005290</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1509375005290</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -418,7 +425,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36268175" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36268175" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -447,6 +454,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fixed memoize prob" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed memoize prob" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -740,23 +751,25 @@
         <state relative-caret-position="345">
           <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/starsconf2017/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/starsconf2017/1-colegios-pres.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="-1" />
+          <selected id="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starsconf2017/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <marker date="1509375850000" expanded="true" signature="247:421" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
