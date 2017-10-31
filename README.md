@@ -3,9 +3,13 @@ Repositorio de la charla "Obtención, análisis y visualización de datos espaci
 
 Recomendamos instalar el ambiente con Anaconda, usando:
 
-conda env create -f environment.yml
-source activate dataviz2
-cd starsconf2017
-jupyer notebook
+`conda env create -f environment.yml`
+
+`source activate dataviz2`
+
+`cd starsconf2017`
+
+`jupyter notebook`
+
 
 luego ir a http://127.0.0.1:8888
