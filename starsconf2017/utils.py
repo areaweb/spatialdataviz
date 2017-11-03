@@ -17,3 +17,14 @@ def persist_to_file(file_name='cache.dat'):
         return new_func
 
     return decorator
+
+from joblib import Memory
+memory = Memory(cachedir='tmp', verbose=0)
+
+@memory.cache
+def get_latlng(query):
+    g=geocoder.google(query)
+    if g:
+        return g.latlng
+    else:
+        return None, None
