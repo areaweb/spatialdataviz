@@ -3,6 +3,12 @@ Repositorio de la charla "Obtención, análisis y visualización de datos espaci
 
 Recomendamos instalar el ambiente con Anaconda, usando:
 
+Descarga e instala para tu plataforma:
+
+https://www.anaconda.com/downloads
+
+luego en terminal, dentro de clon de este repositorio:
+
 `conda env create -f environment.yml`
 
 `source activate dataviz2`
